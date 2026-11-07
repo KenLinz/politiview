@@ -1,0 +1,254 @@
+{
+  "at": "2026-11-05T03:53:15.364Z",
+  "source": "the Inter-Parliamentary Union's Parline",
+  "checked": 315,
+  "differ": 41,
+  "rows": [
+    {
+      "country": "United Arab Emirates",
+      "what": "Seats in parliament",
+      "ours": "20",
+      "theirs": "40"
+    },
+    {
+      "country": "Armenia",
+      "what": "Seats in parliament",
+      "ours": "101",
+      "theirs": "105"
+    },
+    {
+      "country": "Argentina",
+      "what": "Seats in parliament",
+      "ours": "127",
+      "theirs": "257"
+    },
+    {
+      "country": "Bangladesh",
+      "what": "Seats in parliament",
+      "ours": "300",
+      "theirs": "350"
+    },
+    {
+      "country": "Burkina Faso",
+      "what": "Seats in parliament",
+      "ours": "127",
+      "theirs": "71"
+    },
+    {
+      "country": "Burkina Faso",
+      "what": "Last election",
+      "ours": "2020-11-22",
+      "theirs": "2026-03-27"
+    },
+    {
+      "country": "Burundi",
+      "what": "Seats in parliament",
+      "ours": "100",
+      "theirs": "111"
+    },
+    {
+      "country": "Central African Republic",
+      "what": "Last election",
+      "ours": "2026-04-26",
+      "theirs": "2025-12-28"
+    },
+    {
+      "country": "Cyprus",
+      "what": "Seats in parliament",
+      "ours": "56",
+      "theirs": "80"
+    },
+    {
+      "country": "Dominica",
+      "what": "Seats in parliament",
+      "ours": "21",
+      "theirs": "32"
+    },
+    {
+      "country": "Egypt",
+      "what": "Seats in parliament",
+      "ours": "568",
+      "theirs": "596"
+    },
+    {
+      "country": "Ethiopia",
+      "what": "Seats in parliament",
+      "ours": "486",
+      "theirs": "547"
+    },
+    {
+      "country": "Grenada",
+      "what": "Last election",
+      "ours": "2026-11-05",
+      "theirs": "2022-06-23"
+    },
+    {
+      "country": "The Gambia",
+      "what": "Seats in parliament",
+      "ours": "53",
+      "theirs": "58"
+    },
+    {
+      "country": "Guyana",
+      "what": "Seats in parliament",
+      "ours": "65",
+      "theirs": "72"
+    },
+    {
+      "country": "Ireland",
+      "what": "Seats in parliament",
+      "ours": "160",
+      "theirs": "174"
+    },
+    {
+      "country": "Ireland",
+      "what": "Last election",
+      "ours": "2020-02-08",
+      "theirs": "2024-11-29"
+    },
+    {
+      "country": "Iran",
+      "what": "Last election",
+      "ours": "2024-05-10",
+      "theirs": "2024-03-01"
+    },
+    {
+      "country": "Kenya",
+      "what": "Seats in parliament",
+      "ours": "337",
+      "theirs": "350"
+    },
+    {
+      "country": "Saint Kitts and Nevis",
+      "what": "Seats in parliament",
+      "ours": "11",
+      "theirs": "16"
+    },
+    {
+      "country": "Kuwait",
+      "what": "Seats in parliament",
+      "ours": "50",
+      "theirs": "65"
+    },
+    {
+      "country": "Moldova",
+      "what": "Seats in parliament",
+      "ours": "33",
+      "theirs": "101"
+    },
+    {
+      "country": "Moldova",
+      "what": "Last election",
+      "ours": "2025-11-30",
+      "theirs": "2025-09-28"
+    },
+    {
+      "country": "Mali",
+      "what": "Last election",
+      "ours": "2020-04-19",
+      "theirs": "2020-12-05"
+    },
+    {
+      "country": "Myanmar",
+      "what": "Seats in parliament",
+      "ours": "264",
+      "theirs": "440"
+    },
+    {
+      "country": "Myanmar",
+      "what": "Last election",
+      "ours": "2026-01-25",
+      "theirs": "2020-11-08"
+    },
+    {
+      "country": "Malta",
+      "what": "Seats in parliament",
+      "ours": "79",
+      "theirs": "65"
+    },
+    {
+      "country": "Niger",
+      "what": "Seats in parliament",
+      "ours": "171",
+      "theirs": "194"
+    },
+    {
+      "country": "Niger",
+      "what": "Last election",
+      "ours": "2020-12-27",
+      "theirs": "2025-05-01"
+    },
+    {
+      "country": "Philippines",
+      "what": "Seats in parliament",
+      "ours": "254",
+      "theirs": "317"
+    },
+    {
+      "country": "Palau",
+      "what": "Last election",
+      "ours": "2020-11-03",
+      "theirs": "2024-11-05"
+    },
+    {
+      "country": "Paraguay",
+      "what": "Seats in parliament",
+      "ours": "125",
+      "theirs": "80"
+    },
+    {
+      "country": "Qatar",
+      "what": "Seats in parliament",
+      "ours": "30",
+      "theirs": "49"
+    },
+    {
+      "country": "Qatar",
+      "what": "Last election",
+      "ours": "2021-10-02",
+      "theirs": "2025-10-09"
+    },
+    {
+      "country": "Romania",
+      "what": "Seats in parliament",
+      "ours": "134",
+      "theirs": "331"
+    },
+    {
+      "country": "Singapore",
+      "what": "Seats in parliament",
+      "ours": "97",
+      "theirs": "108"
+    },
+    {
+      "country": "Sierra Leone",
+      "what": "Seats in parliament",
+      "ours": "135",
+      "theirs": "149"
+    },
+    {
+      "country": "Syria",
+      "what": "Seats in parliament",
+      "ours": "140",
+      "theirs": "210"
+    },
+    {
+      "country": "Tonga",
+      "what": "Seats in parliament",
+      "ours": "26",
+      "theirs": "30"
+    },
+    {
+      "country": "Saint Vincent and the Grenadines",
+      "what": "Seats in parliament",
+      "ours": "15",
+      "theirs": "23"
+    },
+    {
+      "country": "Zambia",
+      "what": "Seats in parliament",
+      "ours": "226",
+      "theirs": "280"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Politiview">
+  <g fill="none" stroke="#ffffff" stroke-linecap="round">
+    <path d="M19 27V56" stroke-width="6"/>
+    <circle cx="36.500" cy="27" r="17.500" stroke-width="6"/>
+    <ellipse cx="36.500" cy="27" rx="7.500" ry="17.500" stroke-width="2" opacity="0.6"/>
+    <path d="M19 27h35" stroke-width="2" opacity="0.6"/>
+  </g>
+  <circle cx="36.500" cy="27" r="5.500" fill="#ffd166"/>
+</svg>
