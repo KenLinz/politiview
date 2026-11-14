@@ -1,0 +1,10 @@
+{
+  "at": "2026-11-05",
+  "reviewer": "A separate AI, which didn't write any of this and searched outside sources, not a person,",
+  "claims": 64,
+  "held": 55,
+  "wrong": 3,
+  "misleading": 5,
+  "unclear": 1,
+  "note": "The wrong ones were a leader's old party in Togo, the wrong top office in Mozambique, and an AI news summary that has since been taken down. All 9 US race results checked out, and it found no steady lean toward any side. We've fixed what it found and logged it below. This isn't the same as an audit by independent people, which hasn't happened yet."
+}

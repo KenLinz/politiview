@@ -1,0 +1,116 @@
+{
+  "at": "2026-11-05T04:03:17.232Z",
+  "truth": "unitedstates/congress-legislators (who was sworn in)",
+  "checkpoints": [
+    {
+      "year": 2024,
+      "hoursAfterPollsClosed": 12,
+      "parsed": 453,
+      "called": 240,
+      "right": 239,
+      "wrong": [],
+      "noRecord": 1
+    },
+    {
+      "year": 2024,
+      "hoursAfterPollsClosed": 24,
+      "parsed": 453,
+      "called": 409,
+      "right": 408,
+      "wrong": [],
+      "noRecord": 1
+    },
+    {
+      "year": 2024,
+      "hoursAfterPollsClosed": 48,
+      "parsed": 453,
+      "called": 419,
+      "right": 418,
+      "wrong": [],
+      "noRecord": 1
+    },
+    {
+      "year": 2024,
+      "hoursAfterPollsClosed": 96,
+      "parsed": 453,
+      "called": 435,
+      "right": 434,
+      "wrong": [],
+      "noRecord": 1
+    },
+    {
+      "year": 2024,
+      "hoursAfterPollsClosed": 168,
+      "parsed": 453,
+      "called": 441,
+      "right": 440,
+      "wrong": [],
+      "noRecord": 1
+    },
+    {
+      "year": 2024,
+      "hoursAfterPollsClosed": 336,
+      "parsed": 453,
+      "called": 443,
+      "right": 442,
+      "wrong": [],
+      "noRecord": 1
+    },
+    {
+      "year": 2022,
+      "hoursAfterPollsClosed": 12,
+      "parsed": 468,
+      "called": 288,
+      "right": 287,
+      "wrong": [],
+      "noRecord": 1
+    },
+    {
+      "year": 2022,
+      "hoursAfterPollsClosed": 24,
+      "parsed": 468,
+      "called": 403,
+      "right": 402,
+      "wrong": [],
+      "noRecord": 1
+    },
+    {
+      "year": 2022,
+      "hoursAfterPollsClosed": 48,
+      "parsed": 469,
+      "called": 428,
+      "right": 426,
+      "wrong": [
+        "H:MD-06: page said Neil Parrott, sworn in: David J. Trone David Trone"
+      ],
+      "noRecord": 1
+    },
+    {
+      "year": 2022,
+      "hoursAfterPollsClosed": 96,
+      "parsed": 469,
+      "called": 444,
+      "right": 443,
+      "wrong": [],
+      "noRecord": 1
+    },
+    {
+      "year": 2022,
+      "hoursAfterPollsClosed": 168,
+      "parsed": 469,
+      "called": 454,
+      "right": 453,
+      "wrong": [],
+      "noRecord": 1
+    },
+    {
+      "year": 2022,
+      "hoursAfterPollsClosed": 336,
+      "parsed": 465,
+      "called": 459,
+      "right": 458,
+      "wrong": [],
+      "noRecord": 1
+    }
+  ]
+}

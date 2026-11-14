@@ -1,0 +1,3244 @@
+{
+  "GBR": {
+    "gov": "Voters elect a parliament. Whoever can win its support becomes prime minister and runs the government. King Charles is head of state, but his job is mostly for show. The UK has no single written constitution. Its rules come from laws, court decisions and long-held customs.",
+    "vote": "The country is split into 650 areas, and each elects one MP: whoever gets the most votes wins, even under half, which is called first-past-the-post. So a party can win most of the seats with well under half the votes. The upper chamber, the House of Lords, isn't elected. Scotland, Wales and Northern Ireland have their own parliaments or assemblies as well.",
+    "history": "Power moved slowly from kings to parliament, through Magna Carta in 1215, a civil war in the 1640s, and the Glorious Revolution of 1688. Voting spread step by step, starting with the Reform Act of 1832 and reaching all adult women in 1928. Scotland, Wales and Northern Ireland gained their own parliaments in the late 1990s.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "choose"
+        },
+        {
+          "a": "family",
+          "b": "hos",
+          "v": "inherit"
+        }
+      ],
+      "labels": {
+        "lower": "House of Commons",
+        "upper": "House of Lords",
+        "hog": "Prime Minister",
+        "hos": "The King",
+        "family": "Royal family",
+        "voters": "Voters"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "fptp",
+        "threshold": null,
+        "age": 18,
+        "compulsory": false,
+        "term": 5
+      },
+      "timeline": [
+        {
+          "y": 1215,
+          "t": "Magna Carta limits the king",
+          "k": "constitution"
+        },
+        {
+          "y": 1688,
+          "t": "Glorious Revolution strengthens Parliament",
+          "k": "revolution"
+        },
+        {
+          "y": 1832,
+          "t": "First Reform Act widens the vote",
+          "k": "suffrage"
+        },
+        {
+          "y": 1928,
+          "t": "All adult women get the vote",
+          "k": "suffrage"
+        },
+        {
+          "y": 1999,
+          "t": "Scotland and Wales get own parliaments",
+          "k": "reform"
+        }
+      ]
+    }
+  },
+  "IRL": {
+    "gov": "Voters elect a parliament called the Dáil. It chooses a prime minister, called the Taoiseach, who runs the government. A president is elected separately, but that job is mostly for show.",
+    "vote": "Ireland uses a system called single transferable vote. You rank candidates in order of preference, each area elects several members, and your vote moves on if your favorite doesn't need it or can't win. It tends to give parties seats close to their share of the votes.",
+    "history": "Ireland was ruled by Britain for centuries. An uprising in 1916 and a war of independence led to a treaty in 1921 that created a self-governing Irish state, while Northern Ireland stayed in the UK. The treaty sparked a short civil war. Ireland became a republic in 1949, and the 1998 Good Friday Agreement ended most of the violence in the north.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "voters",
+          "b": "hos",
+          "v": "elect"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "choose"
+        },
+        {
+          "a": "hos",
+          "b": "hog",
+          "v": "appoint"
+        }
+      ],
+      "labels": {
+        "lower": "Dáil Éireann",
+        "hog": "Taoiseach",
+        "hos": "President",
+        "voters": "Voters"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "stv",
+        "threshold": null,
+        "age": 18,
+        "compulsory": false,
+        "term": 5
+      },
+      "timeline": [
+        {
+          "y": 1916,
+          "t": "Easter Rising against British rule",
+          "k": "revolution"
+        },
+        {
+          "y": 1921,
+          "t": "Treaty creates the Irish Free State",
+          "k": "independence"
+        },
+        {
+          "y": 1937,
+          "t": "New constitution adopted",
+          "k": "constitution"
+        },
+        {
+          "y": 1949,
+          "t": "Ireland becomes a republic",
+          "k": "independence"
+        },
+        {
+          "y": 1998,
+          "t": "Good Friday Agreement",
+          "k": "reform"
+        }
+      ]
+    }
+  },
+  "FRA": {
+    "gov": "France has both a strong president, elected by voters, and a prime minister. The president sets foreign policy and appoints the prime minister. The prime minister runs daily government but must keep the support of the National Assembly. This is called semi-presidential.",
+    "vote": "The president is elected in two rounds: if nobody gets a majority, the top two face off two weeks later. The National Assembly is also elected one seat per district, with a second round if nobody wins outright. Local officials, not the public, choose the Senate.",
+    "history": "The 1789 Revolution overthrew the king, and France has swung between republics, empires and kings since. Charles de Gaulle designed today's Fifth Republic in 1958, during a crisis over Algeria. He wanted a stronger leader after years of weak governments that didn't last.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "hos",
+          "v": "elect"
+        },
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "hos",
+          "b": "hog",
+          "v": "appoint"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "remove"
+        },
+        {
+          "a": "electors",
+          "b": "upper",
+          "v": "elect"
+        }
+      ],
+      "labels": {
+        "lower": "National Assembly",
+        "upper": "Senate",
+        "hog": "Prime Minister",
+        "hos": "President",
+        "electors": "Local officials",
+        "voters": "Voters"
+      },
+      "runs": "hos",
+      "electoral": {
+        "kind": "two-round",
+        "threshold": null,
+        "age": 18,
+        "compulsory": false,
+        "term": 5
+      },
+      "timeline": [
+        {
+          "y": 1789,
+          "t": "Revolution overthrows the monarchy",
+          "k": "revolution"
+        },
+        {
+          "y": 1870,
+          "t": "Third Republic begins",
+          "k": "democracy"
+        },
+        {
+          "y": 1944,
+          "t": "Women gain the vote",
+          "k": "suffrage"
+        },
+        {
+          "y": 1958,
+          "t": "Fifth Republic and strong presidency",
+          "k": "constitution"
+        },
+        {
+          "y": 1962,
+          "t": "President directly elected by voters",
+          "k": "reform"
+        }
+      ]
+    }
+  },
+  "DEU": {
+    "gov": "Voters elect the Bundestag, and it chooses a chancellor, who runs the government. A president is the ceremonial head of state. Germany is federal: its 16 states run schools and police, and they have their own say in national law through a second chamber, the Bundesrat.",
+    "vote": "Each voter gets two votes: one for a local candidate, and one for a party. The party vote decides how many seats each party gets overall. A party usually needs 5% of the party vote to get in, which keeps very small parties out. Governments are nearly always coalitions.",
+    "history": "Germany only became one country in 1871. After World War I, its first democracy collapsed and Hitler took power in 1933. After World War II, it was split into East and West, and West Germany wrote its Basic Law in 1949 with safeguards to stop a dictator rising again. The two sides reunited in 1990.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "regions",
+          "b": "upper",
+          "v": "appoint"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "choose"
+        },
+        {
+          "a": "electors",
+          "b": "hos",
+          "v": "elect"
+        }
+      ],
+      "labels": {
+        "lower": "Bundestag",
+        "upper": "Bundesrat",
+        "hog": "Chancellor",
+        "hos": "President",
+        "electors": "Federal Convention",
+        "regions": "State governments",
+        "voters": "Voters"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "mmp",
+        "threshold": 5,
+        "age": 18,
+        "compulsory": false,
+        "term": 4
+      },
+      "timeline": [
+        {
+          "y": 1871,
+          "t": "Germany becomes one country",
+          "k": "union"
+        },
+        {
+          "y": 1919,
+          "t": "First democracy, the Weimar Republic",
+          "k": "democracy"
+        },
+        {
+          "y": 1933,
+          "t": "Hitler takes power",
+          "k": "coup"
+        },
+        {
+          "y": 1949,
+          "t": "West Germany adopts Basic Law",
+          "k": "constitution"
+        },
+        {
+          "y": 1990,
+          "t": "East and West reunite",
+          "k": "union"
+        }
+      ]
+    }
+  },
+  "NLD": {
+    "gov": "Voters elect a parliament, and parties work out a coalition. Its leader usually becomes prime minister. The king is head of state, but his job is mostly for show.",
+    "vote": "The whole country counts as one big district, and 150 seats are shared almost exactly by vote share. Winning about 0.67% earns a seat, so many parties get in, and forming a government can take months.",
+    "history": "The Dutch won independence from Spain in a long war ending in 1648, and became a trading empire. A constitution from 1848 limited the monarch's power. Women gained the vote in 1919.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "regions",
+          "b": "upper",
+          "v": "elect"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "choose"
+        },
+        {
+          "a": "family",
+          "b": "hos",
+          "v": "inherit"
+        },
+        {
+          "a": "hos",
+          "b": "hog",
+          "v": "appoint"
+        }
+      ],
+      "labels": {
+        "lower": "Tweede Kamer",
+        "upper": "Senate",
+        "hog": "Prime Minister",
+        "hos": "The King",
+        "family": "Royal family",
+        "regions": "Provincial councils",
+        "voters": "Voters"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "list-pr",
+        "threshold": 0.67,
+        "age": 18,
+        "compulsory": false,
+        "term": 4
+      },
+      "timeline": [
+        {
+          "y": 1648,
+          "t": "Independence from Spain recognized",
+          "k": "independence"
+        },
+        {
+          "y": 1815,
+          "t": "Kingdom of the Netherlands formed",
+          "k": "monarchy"
+        },
+        {
+          "y": 1848,
+          "t": "Constitution limits the monarch",
+          "k": "constitution"
+        },
+        {
+          "y": 1917,
+          "t": "Proportional voting introduced",
+          "k": "reform"
+        },
+        {
+          "y": 1919,
+          "t": "Women gain the vote",
+          "k": "suffrage"
+        }
+      ]
+    }
+  },
+  "BEL": {
+    "gov": "Voters elect a federal parliament, and a group of parties picks a prime minister. The king's job is mostly for show. Power is shared with regions and language communities, because Dutch-speaking Flanders and French-speaking Wallonia have separate parties and politics.",
+    "vote": "Seats are shared by party vote share, in districts. Voting is compulsory, so turnout is very high. Because each language group votes for its own parties, forming a government can be very slow: one attempt, in 2010 and 2011, took 541 days.",
+    "history": "Belgium broke away from the Netherlands in 1830. Tensions between its language groups grew over time, and from the 1970s the country was gradually reorganised into a federal state to manage them.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "approve"
+        },
+        {
+          "a": "family",
+          "b": "hos",
+          "v": "inherit"
+        },
+        {
+          "a": "hos",
+          "b": "hog",
+          "v": "appoint"
+        }
+      ],
+      "labels": {
+        "lower": "Chamber of Reps",
+        "hog": "Prime Minister",
+        "hos": "The King",
+        "family": "Royal family",
+        "voters": "Voters"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "list-pr",
+        "threshold": null,
+        "age": 18,
+        "compulsory": true,
+        "term": 5
+      },
+      "timeline": [
+        {
+          "y": 1830,
+          "t": "Breaks away from the Netherlands",
+          "k": "independence"
+        },
+        {
+          "y": 1893,
+          "t": "Near-universal male vote introduced",
+          "k": "suffrage"
+        },
+        {
+          "y": 1948,
+          "t": "Women gain the national vote",
+          "k": "suffrage"
+        },
+        {
+          "y": 1970,
+          "t": "Reforms begin giving regions self-rule",
+          "k": "reform"
+        },
+        {
+          "y": 1993,
+          "t": "Belgium becomes a federal state",
+          "k": "constitution"
+        }
+      ]
+    }
+  },
+  "LUX": {
+    "gov": "Voters elect a parliament, and the prime minister leads the government. A Grand Duke is the ceremonial head of state: Luxembourg is the world's last grand duchy.",
+    "vote": "Seats are shared by party vote share, and voters can even spread their votes between candidates of different parties. Voting is compulsory.",
+    "history": "Luxembourg was once much larger, but bigger powers kept carving it up. It became fully independent in 1867. It helped found what became the European Union.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "family",
+          "b": "hos",
+          "v": "inherit"
+        },
+        {
+          "a": "hos",
+          "b": "hog",
+          "v": "appoint"
+        }
+      ],
+      "labels": {
+        "lower": "Chamber of Deputies",
+        "hog": "Prime Minister",
+        "hos": "Grand Duke",
+        "family": "Grand ducal family",
+        "voters": "Voters"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "list-pr",
+        "threshold": null,
+        "age": 18,
+        "compulsory": true,
+        "term": 5
+      },
+      "timeline": [
+        {
+          "y": 1815,
+          "t": "Becomes a grand duchy",
+          "k": "monarchy"
+        },
+        {
+          "y": 1867,
+          "t": "Recognized as independent and neutral",
+          "k": "independence"
+        },
+        {
+          "y": 1919,
+          "t": "Women gain the vote",
+          "k": "suffrage"
+        },
+        {
+          "y": 1957,
+          "t": "Founding member of the EU's forerunner",
+          "k": "union"
+        }
+      ]
+    }
+  },
+  "CHE": {
+    "gov": "Switzerland has no single leader. Seven ministers, called the Federal Council, run the country together, and they take turns being president for a year. The biggest parties share these seats by long-standing deal, so the main parties all govern together.",
+    "vote": "Voters elect parliament, but also vote directly on laws and constitutional changes, several times a year. Enough signatures can force a national referendum or launch a proposal for a vote. The 26 states, called cantons, hold a lot of power. Women gained the right to vote nationally only in 1971.",
+    "history": "Swiss communities first allied in 1291. After a short civil war in 1847, they wrote a federal constitution in 1848. Switzerland has stayed officially neutral in wars for over 200 years.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "voters",
+          "b": "upper",
+          "v": "elect"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "choose"
+        },
+        {
+          "a": "upper",
+          "b": "hog",
+          "v": "choose"
+        }
+      ],
+      "labels": {
+        "lower": "National Council",
+        "upper": "Council of States",
+        "hog": "Federal Council",
+        "voters": "Voters"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "list-pr",
+        "threshold": null,
+        "age": 18,
+        "compulsory": false,
+        "term": 4
+      },
+      "timeline": [
+        {
+          "y": 1291,
+          "t": "Early alliance of Swiss communities",
+          "k": "union"
+        },
+        {
+          "y": 1848,
+          "t": "Federal constitution adopted",
+          "k": "constitution"
+        },
+        {
+          "y": 1971,
+          "t": "Women get the national vote",
+          "k": "suffrage"
+        }
+      ]
+    }
+  },
+  "AUT": {
+    "gov": "Voters elect the National Council, and a chancellor runs the government. A president, also elected by voters, is mostly for show but keeps some emergency powers. Austria has nine states, each with powers of its own.",
+    "vote": "Seats are shared by party vote share, with a 4% minimum to get in. Governments are usually coalitions. Austrians can vote from age 16.",
+    "history": "Austria was the heart of the vast Habsburg Empire, which collapsed after World War I. Germany annexed it in 1938. After World War II, the Allies occupied it until 1955, when it became independent and committed to neutrality.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "voters",
+          "b": "hos",
+          "v": "elect"
+        },
+        {
+          "a": "hos",
+          "b": "hog",
+          "v": "appoint"
+        },
+        {
+          "a": "regions",
+          "b": "upper",
+          "v": "elect"
+        }
+      ],
+      "labels": {
+        "lower": "National Council",
+        "upper": "Federal Council",
+        "hog": "Chancellor",
+        "hos": "President",
+        "regions": "State parliaments",
+        "voters": "Voters"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "list-pr",
+        "threshold": 4,
+        "age": 16,
+        "compulsory": false,
+        "term": 5
+      },
+      "timeline": [
+        {
+          "y": 1918,
+          "t": "Republic founded after Habsburg collapse",
+          "k": "democracy"
+        },
+        {
+          "y": 1938,
+          "t": "Annexed by Nazi Germany",
+          "k": "coup"
+        },
+        {
+          "y": 1955,
+          "t": "Independence and neutrality restored",
+          "k": "independence"
+        },
+        {
+          "y": 1995,
+          "t": "Joins the European Union",
+          "k": "union"
+        }
+      ]
+    }
+  },
+  "ITA": {
+    "gov": "Voters elect a parliament with two equal chambers, and a prime minister must keep the support of both. A president, picked by parliament and regional delegates, is mostly for show but matters in a crisis. Governments change often: Italy has had about 70 since 1946.",
+    "vote": "Until now Italy has used a mix: about a third of seats go to local winners, and parties share the rest by their votes. In October 2026 the Chamber of Deputies gave final approval to a new law. It shares seats by party votes, plus bonus seats for the winning side. The rules have been rewritten several times, as parties try to create steadier majorities.",
+    "history": "Italy became one country only in 1861, as a kingdom. Benito Mussolini ruled as a fascist dictator from 1922 and sided with Hitler. After World War II, a 1946 vote got rid of the king. The constitution spreads power widely on purpose, to stop another dictator.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "voters",
+          "b": "upper",
+          "v": "elect"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "approve"
+        },
+        {
+          "a": "upper",
+          "b": "hog",
+          "v": "approve"
+        },
+        {
+          "a": "electors",
+          "b": "hos",
+          "v": "elect"
+        },
+        {
+          "a": "hos",
+          "b": "hog",
+          "v": "appoint"
+        }
+      ],
+      "labels": {
+        "lower": "Chamber of Deputies",
+        "upper": "Senate",
+        "hog": "Prime Minister",
+        "hos": "President",
+        "electors": "Parliament and regions",
+        "voters": "Voters"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": null,
+        "threshold": null,
+        "age": 18,
+        "compulsory": false,
+        "term": 5
+      },
+      "timeline": [
+        {
+          "y": 1861,
+          "t": "Italy unites as a kingdom",
+          "k": "union"
+        },
+        {
+          "y": 1922,
+          "t": "Mussolini takes power",
+          "k": "coup"
+        },
+        {
+          "y": 1946,
+          "t": "Referendum ends the monarchy",
+          "k": "democracy"
+        },
+        {
+          "y": 1948,
+          "t": "Republican constitution takes effect",
+          "k": "constitution"
+        },
+        {
+          "y": 2017,
+          "t": "Current mixed electoral law adopted",
+          "k": "reform"
+        }
+      ]
+    }
+  },
+  "ESP": {
+    "gov": "Voters elect the Congress of Deputies, which chooses a prime minister. The king is head of state, but his job is mostly for show. Seventeen regions, such as Catalonia and the Basque Country, largely run their own affairs.",
+    "vote": "Parties share out seats in the Congress by their votes in each province, and need at least 3% there. Small provinces get more seats per voter, which helps the biggest parties and regional parties.",
+    "history": "A civil war from 1936 to 1939 ended with General Franco ruling as a dictator until he died in 1975. King Juan Carlos then helped lead a peaceful move to democracy, and the 1978 constitution created today's system. Catalonia's movement for independence is still a big issue.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "voters",
+          "b": "upper",
+          "v": "elect"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "choose"
+        },
+        {
+          "a": "family",
+          "b": "hos",
+          "v": "inherit"
+        },
+        {
+          "a": "hos",
+          "b": "hog",
+          "v": "appoint"
+        }
+      ],
+      "labels": {
+        "lower": "Congress of Deputies",
+        "upper": "Senate",
+        "hog": "Prime Minister",
+        "hos": "The King",
+        "family": "Royal family",
+        "voters": "Voters"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "list-pr",
+        "threshold": 3,
+        "age": 18,
+        "compulsory": false,
+        "term": 4
+      },
+      "timeline": [
+        {
+          "y": 1936,
+          "t": "Civil war begins",
+          "k": "split"
+        },
+        {
+          "y": 1939,
+          "t": "Franco's dictatorship begins",
+          "k": "coup"
+        },
+        {
+          "y": 1975,
+          "t": "Franco dies, monarchy restored",
+          "k": "monarchy"
+        },
+        {
+          "y": 1978,
+          "t": "Democratic constitution approved",
+          "k": "constitution"
+        },
+        {
+          "y": 1983,
+          "t": "All regions have self-rule",
+          "k": "reform"
+        }
+      ]
+    }
+  },
+  "PRT": {
+    "gov": "Voters elect a parliament, and the prime minister needs its support to run the government. A president, also elected by voters, has real but limited powers, like blocking laws and shutting down parliament.",
+    "vote": "Parliament's seats are shared by party vote share. The president is elected in two rounds, if needed.",
+    "history": "Portugal was a kingdom for centuries with a huge global empire. It became a republic in 1910 and fell under a dictatorship from 1926. An almost bloodless army uprising, the Carnation Revolution, ended that in 1974. Its colonies won independence soon after.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "voters",
+          "b": "hos",
+          "v": "elect"
+        },
+        {
+          "a": "hos",
+          "b": "hog",
+          "v": "appoint"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "remove"
+        }
+      ],
+      "labels": {
+        "lower": "Assembly of Republic",
+        "hog": "Prime Minister",
+        "hos": "President",
+        "voters": "Voters"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "list-pr",
+        "threshold": null,
+        "age": 18,
+        "compulsory": false,
+        "term": 4
+      },
+      "timeline": [
+        {
+          "y": 1910,
+          "t": "Monarchy overthrown, republic declared",
+          "k": "revolution"
+        },
+        {
+          "y": 1926,
+          "t": "Military coup begins dictatorship",
+          "k": "coup"
+        },
+        {
+          "y": 1974,
+          "t": "Carnation Revolution ends dictatorship",
+          "k": "revolution"
+        },
+        {
+          "y": 1976,
+          "t": "Democratic constitution takes effect",
+          "k": "constitution"
+        },
+        {
+          "y": 1986,
+          "t": "Joins the European Community",
+          "k": "union"
+        }
+      ]
+    }
+  },
+  "AND": {
+    "gov": "Andorra has an elected parliament and prime minister, but two official co-princes as head of state: the President of France and a Spanish bishop. That odd arrangement dates to the 1200s.",
+    "vote": "Half of parliament is elected nationally by party share, and half by the seven parishes. Only citizens can vote, and they're a minority of the people who live there.",
+    "history": "A treaty in 1278 settled a dispute between a French count and a Spanish bishop by making them joint rulers. Andorra adopted its first written constitution only in 1993.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "choose"
+        },
+        {
+          "a": "hos",
+          "b": "hog",
+          "v": "appoint"
+        }
+      ],
+      "labels": {
+        "lower": "General Council",
+        "hog": "Head of Government",
+        "hos": "Two co-princes",
+        "voters": "Voters"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "parallel",
+        "threshold": null,
+        "age": 18,
+        "compulsory": false,
+        "term": 4
+      },
+      "timeline": [
+        {
+          "y": 1278,
+          "t": "Co-princes share rule by treaty",
+          "k": "monarchy"
+        },
+        {
+          "y": 1607,
+          "t": "French head of state becomes co-prince",
+          "k": "monarchy"
+        },
+        {
+          "y": 1993,
+          "t": "First written constitution",
+          "k": "constitution"
+        }
+      ]
+    }
+  },
+  "MCO": {
+    "gov": "The prince of the Grimaldi family holds real power, and appoints the government. An elected National Council passes laws and budgets, but can't remove ministers.",
+    "vote": "Only citizens of Monaco can vote, and they're a minority of the people who live there. They elect the 24-member National Council.",
+    "history": "The Grimaldi family has ruled Monaco, with a few breaks, since 1297. A constitution in 1962 created the elected National Council.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "family",
+          "b": "hos",
+          "v": "inherit"
+        },
+        {
+          "a": "hos",
+          "b": "hog",
+          "v": "appoint"
+        }
+      ],
+      "labels": {
+        "lower": "National Council",
+        "hog": "Minister of State",
+        "hos": "The Prince",
+        "family": "Grimaldi family",
+        "voters": "Voters"
+      },
+      "runs": "hos",
+      "electoral": {
+        "kind": "parallel",
+        "threshold": 5,
+        "age": 18,
+        "compulsory": false,
+        "term": 5
+      },
+      "timeline": [
+        {
+          "y": 1297,
+          "t": "Grimaldi family first takes Monaco",
+          "k": "monarchy"
+        },
+        {
+          "y": 1911,
+          "t": "First constitution",
+          "k": "constitution"
+        },
+        {
+          "y": 1962,
+          "t": "New constitution creates elected council",
+          "k": "constitution"
+        }
+      ]
+    }
+  },
+  "LIE": {
+    "gov": "An elected parliament and prime minister run the country, but the prince keeps strong powers. He can block laws and dismiss governments. Voters confirmed those powers in a 2003 vote.",
+    "vote": "The 25 seats are shared by party vote share. Citizens can also force referendums. Women gained the vote only in 1984.",
+    "history": "The Liechtenstein family bought these lands around 1700, and they became a principality in 1719. It became independent when the German Confederation ended in 1866. Women won the vote in 1984.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "choose"
+        },
+        {
+          "a": "family",
+          "b": "hos",
+          "v": "inherit"
+        },
+        {
+          "a": "hos",
+          "b": "hog",
+          "v": "appoint"
+        }
+      ],
+      "labels": {
+        "lower": "Landtag",
+        "hog": "Prime Minister",
+        "hos": "The Prince",
+        "family": "Princely family",
+        "voters": "Voters"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "list-pr",
+        "threshold": 8,
+        "age": 18,
+        "compulsory": false,
+        "term": 4
+      },
+      "timeline": [
+        {
+          "y": 1719,
+          "t": "Lands become the Principality of Liechtenstein",
+          "k": "monarchy"
+        },
+        {
+          "y": 1866,
+          "t": "Independent after German Confederation ends",
+          "k": "independence"
+        },
+        {
+          "y": 1921,
+          "t": "Constitution shares power with parliament",
+          "k": "constitution"
+        },
+        {
+          "y": 1984,
+          "t": "Women gain the vote",
+          "k": "suffrage"
+        },
+        {
+          "y": 2003,
+          "t": "Voters back stronger princely powers",
+          "k": "reform"
+        }
+      ]
+    }
+  },
+  "SMR": {
+    "gov": "An elected parliament chooses two people called Captains Regent, who jointly serve as heads of state for six months at a time. It's one of the world's oldest republics.",
+    "vote": "Sixty seats are shared by party vote share. If no coalition emerges with a majority, the top two groups face a runoff.",
+    "history": "By tradition, a stonemason named Marinus founded it in 301. Its constitution dates to 1600. It stayed independent while Italy was being united around it.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "lower",
+          "b": "hos",
+          "v": "elect"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "choose"
+        }
+      ],
+      "labels": {
+        "lower": "Grand General Council",
+        "hog": "Congress of State",
+        "hos": "Captains Regent",
+        "voters": "Voters"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "list-pr",
+        "threshold": 3.5,
+        "age": 18,
+        "compulsory": false,
+        "term": 5
+      },
+      "timeline": [
+        {
+          "y": 1600,
+          "t": "Written statutes set up the republic",
+          "k": "constitution"
+        },
+        {
+          "y": 1862,
+          "t": "Treaty of friendship with Italy",
+          "k": "independence"
+        }
+      ]
+    }
+  },
+  "VAT": {
+    "gov": "The pope has total power over the smallest country on Earth. He makes the laws, runs the government and leads the courts. It's also the headquarters of the Catholic Church.",
+    "vote": "There are no public elections. When a pope dies or resigns, the cardinals under 80 meet in secret, in a process called a conclave, and vote until one candidate gets a two-thirds majority.",
+    "history": "Popes once ruled a large part of Italy, but lost those lands when Italy united in 1870. A 1929 treaty with Italy made Vatican City an independent state.",
+    "facts": {
+      "power": [
+        {
+          "a": "electors",
+          "b": "hos",
+          "v": "elect"
+        }
+      ],
+      "labels": {
+        "hos": "The Pope",
+        "electors": "Cardinals under 80"
+      },
+      "runs": "hos",
+      "electoral": {
+        "kind": "none",
+        "threshold": null,
+        "age": null,
+        "compulsory": false,
+        "term": null
+      },
+      "timeline": [
+        {
+          "y": 1870,
+          "t": "Papal States lost to Italy",
+          "k": "split"
+        },
+        {
+          "y": 1929,
+          "t": "Lateran Treaty creates Vatican City",
+          "k": "independence"
+        },
+        {
+          "y": 1996,
+          "t": "Current rules for choosing popes",
+          "k": "reform"
+        }
+      ]
+    }
+  },
+  "MLT": {
+    "gov": "Voters elect a parliament, and the prime minister runs the government. A president, picked by parliament, is mostly for show.",
+    "vote": "Malta uses the single transferable vote, where voters rank candidates. Two parties dominate, and turnout is among the highest in Europe.",
+    "history": "Knights, the French and then the British ruled this strategic island. Malta became independent in 1964, a republic in 1974, and joined the EU in 2004.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "lower",
+          "b": "hos",
+          "v": "elect"
+        },
+        {
+          "a": "hos",
+          "b": "hog",
+          "v": "appoint"
+        }
+      ],
+      "labels": {
+        "lower": "House of Reps",
+        "hog": "Prime Minister",
+        "hos": "President",
+        "voters": "Voters"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "stv",
+        "threshold": null,
+        "age": 16,
+        "compulsory": false,
+        "term": 5
+      },
+      "timeline": [
+        {
+          "y": 1800,
+          "t": "British rule begins",
+          "k": "union"
+        },
+        {
+          "y": 1964,
+          "t": "Independence from Britain",
+          "k": "independence"
+        },
+        {
+          "y": 1974,
+          "t": "Becomes a republic",
+          "k": "constitution"
+        },
+        {
+          "y": 2004,
+          "t": "Joins the European Union",
+          "k": "union"
+        }
+      ]
+    }
+  },
+  "ISL": {
+    "gov": "Voters elect a parliament called the Althing, and the prime minister runs the government. A president, also elected by voters, is mostly for show.",
+    "vote": "Parties share out seats by their votes across several districts. This usually means a coalition.",
+    "history": "The Althing, founded in 930, is often called the world's oldest parliament. Iceland was ruled by Norway and then Denmark, and it became a fully independent republic in 1944.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "voters",
+          "b": "hos",
+          "v": "elect"
+        },
+        {
+          "a": "hos",
+          "b": "hog",
+          "v": "appoint"
+        }
+      ],
+      "labels": {
+        "lower": "Althing",
+        "hog": "Prime Minister",
+        "hos": "President",
+        "voters": "Voters"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "list-pr",
+        "threshold": 5,
+        "age": 18,
+        "compulsory": false,
+        "term": 4
+      },
+      "timeline": [
+        {
+          "y": 1262,
+          "t": "Comes under Norwegian rule",
+          "k": "union"
+        },
+        {
+          "y": 1918,
+          "t": "Self-governing kingdom under Denmark",
+          "k": "independence"
+        },
+        {
+          "y": 1944,
+          "t": "Becomes a republic",
+          "k": "independence"
+        }
+      ]
+    }
+  },
+  "NOR": {
+    "gov": "Voters elect a parliament called the Storting, and the prime minister leads the government. The king's role is ceremonial.",
+    "vote": "Seats are shared by party vote share, with extra seats to even things out across the country. Parliament can't be dissolved early, so elections fall every four years.",
+    "history": "Norway wrote its constitution in 1814, one of the oldest still in force, and was then joined with Sweden under a shared king. It became fully independent in 1905.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "family",
+          "b": "hos",
+          "v": "inherit"
+        },
+        {
+          "a": "hos",
+          "b": "hog",
+          "v": "appoint"
+        }
+      ],
+      "labels": {
+        "lower": "Storting",
+        "hog": "Prime Minister",
+        "hos": "The King",
+        "family": "Royal family",
+        "voters": "Voters"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "list-pr",
+        "threshold": 4,
+        "age": 18,
+        "compulsory": false,
+        "term": 4
+      },
+      "timeline": [
+        {
+          "y": 1814,
+          "t": "Constitution written",
+          "k": "constitution"
+        },
+        {
+          "y": 1884,
+          "t": "Parliamentary government begins",
+          "k": "democracy"
+        },
+        {
+          "y": 1905,
+          "t": "Union with Sweden ends",
+          "k": "independence"
+        },
+        {
+          "y": 1913,
+          "t": "Women gain the vote",
+          "k": "suffrage"
+        }
+      ]
+    }
+  },
+  "SWE": {
+    "gov": "Voters elect the Riksdag, and the prime minister runs the government. The king has no political power at all. Since 1974 his job has been only for show.",
+    "vote": "Seats are shared by party vote share, with a 4% minimum. Governments often rule without a majority, by making deals with other parties.",
+    "history": "Once a great military power, Sweden has avoided war since 1814. It built a large welfare state in the 20th century, and joined NATO in 2024, ending two centuries of non-alignment.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "choose"
+        },
+        {
+          "a": "family",
+          "b": "hos",
+          "v": "inherit"
+        }
+      ],
+      "labels": {
+        "lower": "Riksdag",
+        "hog": "Prime Minister",
+        "hos": "The King",
+        "family": "Royal family",
+        "voters": "Voters"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "list-pr",
+        "threshold": 4,
+        "age": 18,
+        "compulsory": false,
+        "term": 4
+      },
+      "timeline": [
+        {
+          "y": 1809,
+          "t": "New constitution limits the king",
+          "k": "constitution"
+        },
+        {
+          "y": 1921,
+          "t": "Universal suffrage for men and women",
+          "k": "suffrage"
+        },
+        {
+          "y": 1974,
+          "t": "New constitution, monarch purely ceremonial",
+          "k": "constitution"
+        },
+        {
+          "y": 1995,
+          "t": "Joins the European Union",
+          "k": "union"
+        },
+        {
+          "y": 2024,
+          "t": "Joins NATO",
+          "k": "reform"
+        }
+      ]
+    }
+  },
+  "FIN": {
+    "gov": "Voters elect a parliament, and the prime minister runs the government. A president, also elected by voters, shares foreign policy with the government. Most governments are broad coalitions.",
+    "vote": "Voters choose a specific candidate from party lists, and seats are shared by party vote share. In 1906 Finland became the first country in Europe to give women the vote.",
+    "history": "Finland was part of Sweden for centuries, then part of Russia. It became independent in 1917 after the Russian Revolution. It fought the Soviet Union in World War II, stayed neutral in the Cold War and joined NATO in 2023.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "voters",
+          "b": "hos",
+          "v": "elect"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "choose"
+        },
+        {
+          "a": "hos",
+          "b": "hog",
+          "v": "appoint"
+        }
+      ],
+      "labels": {
+        "lower": "Eduskunta",
+        "hog": "Prime Minister",
+        "hos": "President",
+        "voters": "Voters"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "list-pr",
+        "threshold": null,
+        "age": 18,
+        "compulsory": false,
+        "term": 4
+      },
+      "timeline": [
+        {
+          "y": 1809,
+          "t": "Passes from Sweden to Russia",
+          "k": "union"
+        },
+        {
+          "y": 1906,
+          "t": "Women gain the vote",
+          "k": "suffrage"
+        },
+        {
+          "y": 1917,
+          "t": "Independence from Russia",
+          "k": "independence"
+        },
+        {
+          "y": 1919,
+          "t": "Republican constitution adopted",
+          "k": "constitution"
+        },
+        {
+          "y": 2000,
+          "t": "New constitution strengthens parliament",
+          "k": "reform"
+        }
+      ]
+    }
+  },
+  "DNK": {
+    "gov": "Voters elect the Folketing, and the prime minister leads the government. The monarch's role is ceremonial. Greenland and the Faroe Islands are self-governing parts of the kingdom.",
+    "vote": "Seats are shared by party vote share with a low 2% minimum, so many parties get in. Minority governments are common.",
+    "history": "One of Europe's oldest monarchies, Denmark adopted its first democratic constitution in 1849. It gave women the vote in 1915, and it joined the EU's forerunner in 1973.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "family",
+          "b": "hos",
+          "v": "inherit"
+        },
+        {
+          "a": "hos",
+          "b": "hog",
+          "v": "appoint"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "remove"
+        }
+      ],
+      "labels": {
+        "lower": "Folketing",
+        "hog": "Prime Minister",
+        "hos": "The Monarch",
+        "family": "Royal family",
+        "voters": "Voters"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "list-pr",
+        "threshold": 2,
+        "age": 18,
+        "compulsory": false,
+        "term": 4
+      },
+      "timeline": [
+        {
+          "y": 1849,
+          "t": "First democratic constitution",
+          "k": "constitution"
+        },
+        {
+          "y": 1915,
+          "t": "Women gain the vote",
+          "k": "suffrage"
+        },
+        {
+          "y": 1953,
+          "t": "Single-chamber parliament and female succession",
+          "k": "reform"
+        },
+        {
+          "y": 1973,
+          "t": "Joins the EU's forerunner",
+          "k": "union"
+        }
+      ]
+    }
+  },
+  "EST": {
+    "gov": "Voters elect the Riigikogu, and the prime minister runs the government. A president is mostly for show. Parliament picks the president, or a special group does if parliament can't agree.",
+    "vote": "Seats are shared by party vote share with a 5% minimum. Estonia was the first country to allow online voting in national elections, starting in 2005 for local ones and 2007 for parliament.",
+    "history": "Estonia became independent in 1918, but the Soviet Union took it over in 1940. It won its freedom back in 1991 after a peaceful 'Singing Revolution'. It joined the EU and NATO in 2004.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "lower",
+          "b": "hos",
+          "v": "elect"
+        },
+        {
+          "a": "hos",
+          "b": "hog",
+          "v": "appoint"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "approve"
+        }
+      ],
+      "labels": {
+        "lower": "Riigikogu",
+        "hog": "Prime Minister",
+        "hos": "President",
+        "voters": "Voters"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "list-pr",
+        "threshold": 5,
+        "age": 18,
+        "compulsory": false,
+        "term": 4
+      },
+      "timeline": [
+        {
+          "y": 1918,
+          "t": "Declares independence",
+          "k": "independence"
+        },
+        {
+          "y": 1940,
+          "t": "Annexed by the Soviet Union",
+          "k": "union"
+        },
+        {
+          "y": 1991,
+          "t": "Independence restored",
+          "k": "independence"
+        },
+        {
+          "y": 2004,
+          "t": "Joins the EU and NATO",
+          "k": "union"
+        },
+        {
+          "y": 2007,
+          "t": "First national online vote",
+          "k": "reform"
+        }
+      ]
+    }
+  },
+  "LVA": {
+    "gov": "Voters elect the Saeima, and a prime minister runs the government. A president chosen by parliament is the head of state.",
+    "vote": "Parties share out seats by their votes, and need at least 5%. Voters can mark the candidates they like best on a party's list.",
+    "history": "Latvia became independent in 1918, and the Soviet Union took it over in 1940. It won its freedom back in 1991. A large group of Russian speakers is still a political issue.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "lower",
+          "b": "hos",
+          "v": "elect"
+        },
+        {
+          "a": "hos",
+          "b": "hog",
+          "v": "appoint"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "approve"
+        }
+      ],
+      "labels": {
+        "lower": "Saeima",
+        "hog": "Prime Minister",
+        "hos": "President",
+        "voters": "Voters"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "list-pr",
+        "threshold": 5,
+        "age": 18,
+        "compulsory": false,
+        "term": 4
+      },
+      "timeline": [
+        {
+          "y": 1918,
+          "t": "Declares independence",
+          "k": "independence"
+        },
+        {
+          "y": 1940,
+          "t": "Annexed by the Soviet Union",
+          "k": "union"
+        },
+        {
+          "y": 1991,
+          "t": "Independence restored",
+          "k": "independence"
+        },
+        {
+          "y": 2004,
+          "t": "Joins the EU and NATO",
+          "k": "union"
+        }
+      ]
+    }
+  },
+  "LTU": {
+    "gov": "A president, elected by voters, leads foreign policy. A prime minister, backed by parliament, runs daily government.",
+    "vote": "The Seimas is mixed: 71 members win local districts, and 70 seats are shared by party vote share. The president is elected in two rounds, if needed.",
+    "history": "In the Middle Ages, Lithuania was one of Europe's largest states, and it was joined with Poland for centuries. It became independent in 1918, and the Soviet Union took it over in 1940. In 1990 it was the first Soviet republic to declare independence again.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "voters",
+          "b": "hos",
+          "v": "elect"
+        },
+        {
+          "a": "hos",
+          "b": "hog",
+          "v": "appoint"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "approve"
+        }
+      ],
+      "labels": {
+        "lower": "Seimas",
+        "hog": "Prime Minister",
+        "hos": "President",
+        "voters": "Voters"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "parallel",
+        "threshold": 5,
+        "age": 18,
+        "compulsory": false,
+        "term": 4
+      },
+      "timeline": [
+        {
+          "y": 1569,
+          "t": "Joins Poland in a joint commonwealth",
+          "k": "union"
+        },
+        {
+          "y": 1918,
+          "t": "Declares independence",
+          "k": "independence"
+        },
+        {
+          "y": 1940,
+          "t": "Annexed by the Soviet Union",
+          "k": "union"
+        },
+        {
+          "y": 1990,
+          "t": "Declares independence restored",
+          "k": "independence"
+        },
+        {
+          "y": 2004,
+          "t": "Joins the EU and NATO",
+          "k": "union"
+        }
+      ]
+    }
+  },
+  "POL": {
+    "gov": "Voters elect the Sejm, and the prime minister runs the government. A directly elected president can veto laws, which leads to real conflict when the two come from opposing camps.",
+    "vote": "Sejm seats are shared by party vote share within districts, with a 5% minimum for parties. The Senate is elected by first-past-the-post. The president is elected in two rounds, if needed.",
+    "history": "Poland's neighbors divided it up in the late 1700s, and it vanished from the map for over a century. It came back in 1918, was invaded in 1939, and fell under Soviet-backed communism after the war. The Solidarity trade union helped force partly free elections in 1989. That set off the fall of communism across Eastern Europe.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "voters",
+          "b": "upper",
+          "v": "elect"
+        },
+        {
+          "a": "voters",
+          "b": "hos",
+          "v": "elect"
+        },
+        {
+          "a": "hos",
+          "b": "hog",
+          "v": "appoint"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "approve"
+        }
+      ],
+      "labels": {
+        "lower": "Sejm",
+        "upper": "Senate",
+        "hog": "Prime Minister",
+        "hos": "President",
+        "voters": "Voters"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "list-pr",
+        "threshold": 5,
+        "age": 18,
+        "compulsory": false,
+        "term": 4
+      },
+      "timeline": [
+        {
+          "y": 1795,
+          "t": "Poland divided between neighbors",
+          "k": "split"
+        },
+        {
+          "y": 1918,
+          "t": "Independence regained",
+          "k": "independence"
+        },
+        {
+          "y": 1945,
+          "t": "Soviet-backed communist rule begins",
+          "k": "coup"
+        },
+        {
+          "y": 1989,
+          "t": "Partly free elections after Solidarity talks",
+          "k": "democracy"
+        },
+        {
+          "y": 1997,
+          "t": "Current constitution adopted",
+          "k": "constitution"
+        }
+      ]
+    }
+  },
+  "CZE": {
+    "gov": "Voters elect the Chamber of Deputies, and the prime minister runs the government. A president, elected by voters since 2013, is mostly for show but has some influence.",
+    "vote": "Seats are shared by party vote share with a 5% minimum, and voters can choose favorites on a party's list.",
+    "history": "Czechoslovakia was created in 1918. Nazi Germany took it over, and communists ruled from 1948. The peaceful Velvet Revolution ended communism in 1989. The country then split peacefully into the Czech Republic and Slovakia in 1993.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "voters",
+          "b": "upper",
+          "v": "elect"
+        },
+        {
+          "a": "voters",
+          "b": "hos",
+          "v": "elect"
+        },
+        {
+          "a": "hos",
+          "b": "hog",
+          "v": "appoint"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "approve"
+        }
+      ],
+      "labels": {
+        "lower": "Chamber of Deputies",
+        "upper": "Senate",
+        "hog": "Prime Minister",
+        "hos": "President",
+        "voters": "Voters"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "list-pr",
+        "threshold": 5,
+        "age": 18,
+        "compulsory": false,
+        "term": 4
+      },
+      "timeline": [
+        {
+          "y": 1918,
+          "t": "Czechoslovakia created",
+          "k": "independence"
+        },
+        {
+          "y": 1948,
+          "t": "Communist takeover",
+          "k": "coup"
+        },
+        {
+          "y": 1989,
+          "t": "Velvet Revolution ends communist rule",
+          "k": "revolution"
+        },
+        {
+          "y": 1993,
+          "t": "Czechoslovakia splits peacefully",
+          "k": "split"
+        },
+        {
+          "y": 2013,
+          "t": "First direct presidential election",
+          "k": "reform"
+        }
+      ]
+    }
+  },
+  "SVK": {
+    "gov": "Voters elect a parliament, and a prime minister runs the government. A president, also elected by voters, has a limited role.",
+    "vote": "All 150 seats are shared by party vote share across one nationwide district, with a 5% minimum.",
+    "history": "Slovakia was part of Hungary for centuries, and then of Czechoslovakia from 1918. It became independent in the peaceful split of 1993, and joined the EU and NATO in 2004.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "voters",
+          "b": "hos",
+          "v": "elect"
+        },
+        {
+          "a": "hos",
+          "b": "hog",
+          "v": "appoint"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "approve"
+        }
+      ],
+      "labels": {
+        "lower": "National Council",
+        "hog": "Prime Minister",
+        "hos": "President",
+        "voters": "Voters"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "list-pr",
+        "threshold": 5,
+        "age": 18,
+        "compulsory": false,
+        "term": 4
+      },
+      "timeline": [
+        {
+          "y": 1918,
+          "t": "Joins Czechoslovakia",
+          "k": "union"
+        },
+        {
+          "y": 1948,
+          "t": "Communist takeover",
+          "k": "coup"
+        },
+        {
+          "y": 1989,
+          "t": "Velvet Revolution ends communist rule",
+          "k": "revolution"
+        },
+        {
+          "y": 1993,
+          "t": "Czechoslovakia splits peacefully",
+          "k": "split"
+        },
+        {
+          "y": 1999,
+          "t": "First direct presidential election",
+          "k": "reform"
+        }
+      ]
+    }
+  },
+  "HUN": {
+    "gov": "Voters elect the National Assembly, and the prime minister runs the government. A president, picked by parliament, is mostly for show.",
+    "vote": "Hungary uses a mix of local winners and party-list seats, with rules critics say help the largest party. After Fidesz won two-thirds of the seats in 2010, it rewrote the constitution. Critics and EU bodies said Hungary was no longer a full democracy, which the government of the time rejected. In April 2026 the Tisza party won two-thirds of the seats and formed a new government.",
+    "history": "Once half of the Austro-Hungarian Empire, Hungary lost two-thirds of its territory after World War I. Communists took over after World War II, and a 1956 uprising was crushed by Soviet tanks. Democracy returned in 1989.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "lower",
+          "b": "hos",
+          "v": "elect"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "choose"
+        },
+        {
+          "a": "hos",
+          "b": "hog",
+          "v": "appoint"
+        }
+      ],
+      "labels": {
+        "lower": "National Assembly",
+        "hog": "Prime Minister",
+        "hos": "President",
+        "voters": "Voters"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "parallel",
+        "threshold": 5,
+        "age": 18,
+        "compulsory": false,
+        "term": 4
+      },
+      "timeline": [
+        {
+          "y": 1920,
+          "t": "Treaty of Trianon shrinks Hungary",
+          "k": "split"
+        },
+        {
+          "y": 1949,
+          "t": "Communist state established",
+          "k": "coup"
+        },
+        {
+          "y": 1956,
+          "t": "Uprising crushed by Soviet forces",
+          "k": "revolution"
+        },
+        {
+          "y": 1989,
+          "t": "Communist rule ends",
+          "k": "democracy"
+        },
+        {
+          "y": 2011,
+          "t": "New constitution, the Fundamental Law",
+          "k": "constitution"
+        }
+      ]
+    }
+  },
+  "ROU": {
+    "gov": "A president, elected by voters, handles foreign affairs and defense. A prime minister, backed by parliament, runs daily government.",
+    "vote": "Parties fill parliament's two chambers by their share of votes. The president is elected in up to two rounds. In December 2024 the top court canceled the first round for president, after secret papers made public pointed to alleged foreign interference. A new election was held in 2025.",
+    "history": "Romania was formed in the 1800s from smaller states. Nicolae Ceaușescu ruled as a communist dictator until a violent uprising removed him in 1989, and he was executed.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "voters",
+          "b": "upper",
+          "v": "elect"
+        },
+        {
+          "a": "voters",
+          "b": "hos",
+          "v": "elect"
+        },
+        {
+          "a": "hos",
+          "b": "hog",
+          "v": "appoint"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "approve"
+        }
+      ],
+      "labels": {
+        "lower": "Chamber of Deputies",
+        "upper": "Senate",
+        "hog": "Prime Minister",
+        "hos": "President",
+        "voters": "Voters"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "list-pr",
+        "threshold": 5,
+        "age": 18,
+        "compulsory": false,
+        "term": 4
+      },
+      "timeline": [
+        {
+          "y": 1859,
+          "t": "Wallachia and Moldavia unite",
+          "k": "union"
+        },
+        {
+          "y": 1947,
+          "t": "Monarchy abolished, communist state",
+          "k": "coup"
+        },
+        {
+          "y": 1989,
+          "t": "Uprising ends communist rule",
+          "k": "revolution"
+        },
+        {
+          "y": 1991,
+          "t": "Post-communist constitution adopted",
+          "k": "constitution"
+        },
+        {
+          "y": 2007,
+          "t": "Joins the European Union",
+          "k": "union"
+        }
+      ]
+    }
+  },
+  "BGR": {
+    "gov": "Voters elect the National Assembly, and the prime minister runs the government. A president, also elected by voters, is mostly for show.",
+    "vote": "Seats are shared by party vote share with a 4% minimum. Fragile coalitions have led to many repeat elections in recent years.",
+    "history": "Bulgaria gained independence from the Ottoman Empire in stages, up to 1908. It was a communist state from 1946 until 1989, and joined the EU in 2007.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "voters",
+          "b": "hos",
+          "v": "elect"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "choose"
+        },
+        {
+          "a": "hos",
+          "b": "hog",
+          "v": "appoint"
+        }
+      ],
+      "labels": {
+        "lower": "National Assembly",
+        "hog": "Prime Minister",
+        "hos": "President",
+        "voters": "Voters"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "list-pr",
+        "threshold": 4,
+        "age": 18,
+        "compulsory": null,
+        "term": 4
+      },
+      "timeline": [
+        {
+          "y": 1878,
+          "t": "Autonomy from the Ottoman Empire",
+          "k": "independence"
+        },
+        {
+          "y": 1908,
+          "t": "Full independence declared",
+          "k": "independence"
+        },
+        {
+          "y": 1946,
+          "t": "Monarchy abolished, communist rule",
+          "k": "coup"
+        },
+        {
+          "y": 1991,
+          "t": "New democratic constitution",
+          "k": "constitution"
+        },
+        {
+          "y": 2007,
+          "t": "Joins the European Union",
+          "k": "union"
+        }
+      ]
+    }
+  },
+  "GRC": {
+    "gov": "Voters elect a parliament, and the prime minister runs the government. A president, picked by parliament, is mostly for show.",
+    "vote": "Parties mainly share out seats by their votes, and need at least 3%. The first-placed party can get bonus seats to help it form a government.",
+    "history": "Greece won independence from the Ottoman Empire in the 1820s. It went through a civil war in the 1940s and a military junta from 1967 to 1974. Voters then abolished the monarchy. A severe debt crisis dominated its politics after 2009.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "lower",
+          "b": "hos",
+          "v": "elect"
+        },
+        {
+          "a": "hos",
+          "b": "hog",
+          "v": "appoint"
+        }
+      ],
+      "labels": {
+        "lower": "Hellenic Parliament",
+        "hog": "Prime Minister",
+        "hos": "President",
+        "voters": "Voters"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "list-pr",
+        "threshold": 3,
+        "age": 18,
+        "compulsory": null,
+        "term": 4
+      },
+      "timeline": [
+        {
+          "y": 1830,
+          "t": "Independence recognized",
+          "k": "independence"
+        },
+        {
+          "y": 1946,
+          "t": "Civil war begins",
+          "k": "split"
+        },
+        {
+          "y": 1967,
+          "t": "Military junta takes power",
+          "k": "coup"
+        },
+        {
+          "y": 1974,
+          "t": "Democracy restored, monarchy abolished",
+          "k": "democracy"
+        },
+        {
+          "y": 1981,
+          "t": "Joins the European Community",
+          "k": "union"
+        }
+      ]
+    }
+  },
+  "CYP": {
+    "gov": "Voters elect a president, who leads both the state and the government. The island has been split since 1974. The Republic of Cyprus runs the south, and a Turkish Cypriot government that only Turkey recognizes runs the north.",
+    "vote": "The president is elected in two rounds, if needed. The House of Representatives is filled by party vote share.",
+    "history": "Cyprus became independent from Britain in 1960, and violence between Greek and Turkish Cypriots followed. In 1974 a coup backed by Greece's military government was followed by a Turkish military operation. Turkey says it acted under a 1960 treaty. Cyprus and most countries call it an invasion and occupation. UN peacekeepers still patrol the line between the two sides.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "voters",
+          "b": "hog",
+          "v": "elect"
+        }
+      ],
+      "labels": {
+        "lower": "House of Reps",
+        "hog": "President",
+        "voters": "Voters"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "list-pr",
+        "threshold": 3.6,
+        "age": 18,
+        "compulsory": true,
+        "term": 5
+      },
+      "timeline": [
+        {
+          "y": 1960,
+          "t": "Independence from Britain",
+          "k": "independence"
+        },
+        {
+          "y": 1963,
+          "t": "Power-sharing breaks down",
+          "k": "split"
+        },
+        {
+          "y": 1974,
+          "t": "Coup and Turkish military intervention",
+          "k": "split"
+        },
+        {
+          "y": 1983,
+          "t": "North declares a separate state",
+          "k": "split"
+        },
+        {
+          "y": 2004,
+          "t": "Republic of Cyprus joins the EU",
+          "k": "union"
+        }
+      ]
+    }
+  },
+  "SVN": {
+    "gov": "Voters elect the National Assembly, and the prime minister runs the government. A president, also elected by voters, is mostly for show.",
+    "vote": "Parties share out seats by their votes, and need at least 4%. Special seats go to the Italian and Hungarian minorities.",
+    "history": "Slovenia was the wealthiest part of Yugoslavia, and left it in 1991 after a short, ten-day war. It joined the EU and NATO in 2004.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "voters",
+          "b": "hos",
+          "v": "elect"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "choose"
+        },
+        {
+          "a": "hos",
+          "b": "hog",
+          "v": "appoint"
+        }
+      ],
+      "labels": {
+        "lower": "National Assembly",
+        "hog": "Prime Minister",
+        "hos": "President",
+        "voters": "Voters"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "list-pr",
+        "threshold": 4,
+        "age": 18,
+        "compulsory": false,
+        "term": 4
+      },
+      "timeline": [
+        {
+          "y": 1918,
+          "t": "Joins the Kingdom of Serbs, Croats and Slovenes",
+          "k": "union"
+        },
+        {
+          "y": 1991,
+          "t": "Declares independence from Yugoslavia",
+          "k": "independence"
+        },
+        {
+          "y": 1991,
+          "t": "New constitution adopted",
+          "k": "constitution"
+        },
+        {
+          "y": 2004,
+          "t": "Joins the EU and NATO",
+          "k": "union"
+        }
+      ]
+    }
+  },
+  "HRV": {
+    "gov": "Voters elect a parliament, and the prime minister runs the government. A president, also elected by voters, has limited powers, including over the military.",
+    "vote": "Parties share out seats by their votes across districts. Some seats are saved for minorities and for Croatians living abroad.",
+    "history": "Croatia declared independence from Yugoslavia in 1991, and fought a war with Serb-led forces until 1995. It joined the EU in 2013.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "voters",
+          "b": "hos",
+          "v": "elect"
+        },
+        {
+          "a": "hos",
+          "b": "hog",
+          "v": "appoint"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "approve"
+        }
+      ],
+      "labels": {
+        "lower": "Sabor",
+        "hog": "Prime Minister",
+        "hos": "President",
+        "voters": "Voters"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "list-pr",
+        "threshold": 5,
+        "age": 18,
+        "compulsory": false,
+        "term": 4
+      },
+      "timeline": [
+        {
+          "y": 1990,
+          "t": "First multiparty elections",
+          "k": "democracy"
+        },
+        {
+          "y": 1991,
+          "t": "Declares independence from Yugoslavia",
+          "k": "independence"
+        },
+        {
+          "y": 1995,
+          "t": "War ends",
+          "k": "split"
+        },
+        {
+          "y": 2013,
+          "t": "Joins the European Union",
+          "k": "union"
+        }
+      ]
+    }
+  },
+  "BIH": {
+    "gov": "Bosnia and Herzegovina has one of the world's most complicated systems. Three people share the presidency: one Bosniak, one Croat and one Serb. The country has two largely self-ruling parts, the Federation and Republika Srpska. An international official, the High Representative, has disputed powers to impose laws and remove officials.",
+    "vote": "Voters in the Federation elect the Bosniak and Croat presidents, and voters in Republika Srpska elect the Serb one. Seats in the state parliament are also split among the three main groups. European judges have ruled it's discrimination to bar people outside these groups, such as Jews and Roma, from some top jobs.",
+    "history": "War followed the breakup of Yugoslavia, from 1992 to 1995. International courts have ruled that the 1995 killings at Srebrenica were genocide, a finding some Bosnian Serb leaders reject. The Dayton Agreement ended the fighting in 1995 and set up this power-sharing system to keep the peace.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "voters",
+          "b": "hos",
+          "v": "elect"
+        },
+        {
+          "a": "regions",
+          "b": "upper",
+          "v": "appoint"
+        },
+        {
+          "a": "hos",
+          "b": "hog",
+          "v": "appoint"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "approve"
+        }
+      ],
+      "labels": {
+        "lower": "House of Reps",
+        "upper": "House of Peoples",
+        "hog": "Council of Ministers",
+        "hos": "Presidency (3 members)",
+        "regions": "Entity parliaments",
+        "voters": "Voters"
+      },
+      "runs": null,
+      "electoral": {
+        "kind": "list-pr",
+        "threshold": null,
+        "age": 18,
+        "compulsory": false,
+        "term": 4
+      },
+      "timeline": [
+        {
+          "y": 1992,
+          "t": "Declares independence, war begins",
+          "k": "independence"
+        },
+        {
+          "y": 1995,
+          "t": "Dayton Agreement ends the war",
+          "k": "constitution"
+        },
+        {
+          "y": 1995,
+          "t": "High Representative post created",
+          "k": "reform"
+        },
+        {
+          "y": 2009,
+          "t": "European court rules on minority exclusion",
+          "k": "reform"
+        }
+      ]
+    }
+  },
+  "SRB": {
+    "gov": "Serbia has an elected parliament and a prime minister who runs the government. On paper, its president is mostly for show. Critics say presidents from the ruling party have really been in charge. Ratings differ: some groups call Serbia a 'flawed democracy' or 'partly free', and others a 'moderate autocracy'.",
+    "vote": "Parties share out all 250 seats by their votes. Elections are real contests, but critics report that media heavily favors the government and that conditions are uneven.",
+    "history": "Serbia was the largest part of Yugoslavia. In the 1990s, under Slobodan Milošević, Serbian-led forces took part in the wars that followed its breakup. NATO bombed Serbia in 1999 during the Kosovo conflict, saying it aimed to protect civilians. Serbia called this illegal. Mass protests removed Milošević in 2000. Serbia doesn't recognize Kosovo's independence.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "voters",
+          "b": "hos",
+          "v": "elect"
+        },
+        {
+          "a": "hos",
+          "b": "hog",
+          "v": "appoint"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "approve"
+        }
+      ],
+      "labels": {
+        "lower": "National Assembly",
+        "hog": "Prime Minister",
+        "hos": "President",
+        "voters": "Voters"
+      },
+      "runs": null,
+      "electoral": {
+        "kind": "list-pr",
+        "threshold": 3,
+        "age": 18,
+        "compulsory": false,
+        "term": 4
+      },
+      "timeline": [
+        {
+          "y": 1918,
+          "t": "Joins the Kingdom of Serbs, Croats and Slovenes",
+          "k": "union"
+        },
+        {
+          "y": 1945,
+          "t": "Part of communist Yugoslavia",
+          "k": "union"
+        },
+        {
+          "y": 2000,
+          "t": "Protests remove Milošević",
+          "k": "revolution"
+        },
+        {
+          "y": 2006,
+          "t": "Independent after Montenegro leaves union",
+          "k": "split"
+        },
+        {
+          "y": 2008,
+          "t": "Kosovo declares independence",
+          "k": "split"
+        }
+      ]
+    }
+  },
+  "MNE": {
+    "gov": "Voters elect a parliament, and the prime minister runs the government. A president, also elected by voters, has limited powers.",
+    "vote": "Parties share out seats by their votes and need at least 3%. Minority parties need less.",
+    "history": "Montenegro stayed joined with Serbia after Yugoslavia broke up. It became independent through a close vote in 2006, and joined NATO in 2017.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "voters",
+          "b": "hos",
+          "v": "elect"
+        },
+        {
+          "a": "hos",
+          "b": "hog",
+          "v": "appoint"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "approve"
+        }
+      ],
+      "labels": {
+        "lower": "Parliament",
+        "hog": "Prime Minister",
+        "hos": "President",
+        "voters": "Voters"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "list-pr",
+        "threshold": 3,
+        "age": 18,
+        "compulsory": false,
+        "term": 4
+      },
+      "timeline": [
+        {
+          "y": 1992,
+          "t": "Stays in union with Serbia",
+          "k": "union"
+        },
+        {
+          "y": 2006,
+          "t": "Independence referendum passes",
+          "k": "independence"
+        },
+        {
+          "y": 2007,
+          "t": "New constitution adopted",
+          "k": "constitution"
+        },
+        {
+          "y": 2017,
+          "t": "Joins NATO",
+          "k": "union"
+        }
+      ]
+    }
+  },
+  "MKD": {
+    "gov": "Voters elect a parliament, and the prime minister runs the government. A president, also elected by voters, is mostly for show.",
+    "vote": "Seats are shared by party vote share. Power-sharing rules, from a 2001 peace deal, ensure a voice for the large Albanian minority.",
+    "history": "It left Yugoslavia peacefully in 1991. Greece objected to its name for decades, and a 2018 deal changed it to North Macedonia, opening the door to NATO, which it joined in 2020.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "voters",
+          "b": "hos",
+          "v": "elect"
+        },
+        {
+          "a": "hos",
+          "b": "hog",
+          "v": "appoint"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "approve"
+        }
+      ],
+      "labels": {
+        "lower": "Assembly",
+        "hog": "Prime Minister",
+        "hos": "President",
+        "voters": "Voters"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "list-pr",
+        "threshold": null,
+        "age": 18,
+        "compulsory": false,
+        "term": 4
+      },
+      "timeline": [
+        {
+          "y": 1991,
+          "t": "Leaves Yugoslavia peacefully",
+          "k": "independence"
+        },
+        {
+          "y": 2001,
+          "t": "Ohrid Agreement gives minority rights",
+          "k": "reform"
+        },
+        {
+          "y": 2018,
+          "t": "Name deal with Greece",
+          "k": "reform"
+        },
+        {
+          "y": 2019,
+          "t": "Renamed North Macedonia",
+          "k": "reform"
+        },
+        {
+          "y": 2020,
+          "t": "Joins NATO",
+          "k": "union"
+        }
+      ]
+    }
+  },
+  "ALB": {
+    "gov": "Voters elect a parliament, and the prime minister runs the government. A president, picked by parliament, is mostly for show.",
+    "vote": "Seats are shared by party vote share across regional districts.",
+    "history": "Under dictator Enver Hoxha, Albania was one of the most cut-off communist countries on Earth. It banned religion and broke ties with nearly everyone. The system fell in 1991, and failed get-rich-quick schemes caused chaos in 1997.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "lower",
+          "b": "hos",
+          "v": "elect"
+        },
+        {
+          "a": "hos",
+          "b": "hog",
+          "v": "appoint"
+        }
+      ],
+      "labels": {
+        "lower": "Assembly",
+        "hog": "Prime Minister",
+        "hos": "President",
+        "voters": "Voters"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "list-pr",
+        "threshold": 1,
+        "age": 18,
+        "compulsory": false,
+        "term": 4
+      },
+      "timeline": [
+        {
+          "y": 1912,
+          "t": "Independence from the Ottoman Empire",
+          "k": "independence"
+        },
+        {
+          "y": 1946,
+          "t": "Communist state declared",
+          "k": "coup"
+        },
+        {
+          "y": 1991,
+          "t": "First multiparty elections",
+          "k": "democracy"
+        },
+        {
+          "y": 1998,
+          "t": "Current constitution adopted",
+          "k": "constitution"
+        }
+      ]
+    }
+  },
+  "KOS": {
+    "gov": "Voters elect the Assembly, and the prime minister runs the government. A president chosen by the Assembly is the head of state, and seats are reserved for Serb and other minorities. In 2026 the Assembly failed to elect a president, which led to early elections in June 2026.",
+    "vote": "Of the 120 seats, 100 are shared by party vote share, and 20 are reserved for minorities, 10 of them for Serbs.",
+    "history": "Kosovo was part of Serbia, and most of its people are Albanian. A war in 1998 and 1999 ended with NATO bombing and UN rule. Kosovo declared independence in 2008. Many countries recognize it, but Serbia, Russia, China and others don't. Serbia sees Kosovo as part of its land.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "lower",
+          "b": "hos",
+          "v": "elect"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "choose"
+        }
+      ],
+      "labels": {
+        "lower": "Assembly",
+        "hog": "Prime Minister",
+        "hos": "President",
+        "voters": "Voters"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "list-pr",
+        "threshold": 5,
+        "age": 18,
+        "compulsory": false,
+        "term": 4
+      },
+      "timeline": [
+        {
+          "y": 1999,
+          "t": "UN administration begins",
+          "k": "reform"
+        },
+        {
+          "y": 2008,
+          "t": "Declares independence from Serbia",
+          "k": "independence"
+        },
+        {
+          "y": 2008,
+          "t": "New constitution takes effect",
+          "k": "constitution"
+        }
+      ]
+    }
+  },
+  "MDA": {
+    "gov": "Voters elect a parliament, and the prime minister runs the government. A president, also elected by voters, has limited powers but helps shape foreign policy.",
+    "vote": "Parties share out seats by their votes. Elections here are often a contest between pro-Europe and pro-Russia parties. Officials and observers have raised concerns about foreign interference, especially from Russia.",
+    "history": "Moldova broke from the Soviet Union in 1991. A short war in 1992 left the Transnistria region under a Russian-backed breakaway government. No UN member recognizes it.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "voters",
+          "b": "hos",
+          "v": "elect"
+        },
+        {
+          "a": "hos",
+          "b": "hog",
+          "v": "appoint"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "approve"
+        }
+      ],
+      "labels": {
+        "lower": "Parliament",
+        "hog": "Prime Minister",
+        "hos": "President",
+        "voters": "Voters"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "list-pr",
+        "threshold": 5,
+        "age": 18,
+        "compulsory": false,
+        "term": 4
+      },
+      "timeline": [
+        {
+          "y": 1991,
+          "t": "Independence from the Soviet Union",
+          "k": "independence"
+        },
+        {
+          "y": 1994,
+          "t": "Constitution adopted",
+          "k": "constitution"
+        },
+        {
+          "y": 2000,
+          "t": "Parliament chooses president",
+          "k": "reform"
+        },
+        {
+          "y": 2016,
+          "t": "Direct presidential elections return",
+          "k": "reform"
+        }
+      ]
+    }
+  },
+  "UKR": {
+    "gov": "A president, elected by voters, leads defense and foreign policy. A prime minister, backed by parliament, runs daily government. Martial law began when Russia launched its full-scale invasion in February 2022, and national elections aren't held under it.",
+    "vote": "In peacetime, the president is elected in up to two rounds. Parliament was last elected in 2019, half by party lists and half by local winners. A law since 2020 changes this to party lists. Ukrainian law bars national elections under martial law, so the current parliament and president stay in office.",
+    "history": "Ukraine was part of the Soviet Union until 1991. Protests in 2004 and 2014 led to changes of government. Ukraine moved closer to Europe, which Russia opposed. In 2014 Russia took control of Crimea. Ukraine and most countries call that illegal, while Russia says Crimea joined it after a local vote. Russia-backed separatists took parts of the east that year. Russia launched a full-scale invasion in February 2022.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "hos",
+          "v": "elect"
+        },
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "hos",
+          "b": "hog",
+          "v": "appoint"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "approve"
+        }
+      ],
+      "labels": {
+        "lower": "Verkhovna Rada",
+        "hog": "Prime Minister",
+        "hos": "President",
+        "voters": "Voters"
+      },
+      "runs": null,
+      "electoral": {
+        "kind": "list-pr",
+        "threshold": 5,
+        "age": 18,
+        "compulsory": false,
+        "term": 5
+      },
+      "timeline": [
+        {
+          "y": 1991,
+          "t": "Independence from the Soviet Union",
+          "k": "independence"
+        },
+        {
+          "y": 1996,
+          "t": "Current constitution adopted",
+          "k": "constitution"
+        },
+        {
+          "y": 2004,
+          "t": "Orange Revolution protests",
+          "k": "revolution"
+        },
+        {
+          "y": 2014,
+          "t": "Euromaidan protests, change of government",
+          "k": "revolution"
+        },
+        {
+          "y": 2022,
+          "t": "Martial law after full-scale invasion",
+          "k": "reform"
+        }
+      ]
+    }
+  },
+  "BLR": {
+    "gov": "Belarus has a president who, observers say, holds nearly all the power. He has been in office since 1994. Parliament and the courts mostly follow his lead, and he appoints the prime minister.",
+    "vote": "Voters elect the president every five years, and a lower house of 110 members from local areas. International monitors have not judged any vote for president since the first, in 1994, to be free or fair. The government says its elections are lawful. After the disputed 2020 result, huge protests were met with mass arrests. Many opposition leaders were jailed or left.",
+    "history": "Belarus broke from the Soviet Union in 1991. The current president won its first election for president in 1994. Later changes to the constitution gave him more power and removed term limits. Belarus is close to Russia, and let Russian forces use its land when Russia invaded Ukraine in 2022.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "hos",
+          "v": "elect"
+        },
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "hos",
+          "b": "hog",
+          "v": "appoint"
+        }
+      ],
+      "labels": {
+        "lower": "House of Reps",
+        "hog": "Prime Minister",
+        "hos": "President",
+        "voters": "Voters"
+      },
+      "runs": "hos",
+      "electoral": {
+        "kind": "fptp",
+        "threshold": null,
+        "age": 18,
+        "compulsory": false,
+        "term": 4
+      },
+      "timeline": [
+        {
+          "y": 1991,
+          "t": "Independence from the Soviet Union",
+          "k": "independence"
+        },
+        {
+          "y": 1994,
+          "t": "First presidential election",
+          "k": "democracy"
+        },
+        {
+          "y": 1996,
+          "t": "Referendum widens presidential powers",
+          "k": "constitution"
+        },
+        {
+          "y": 2004,
+          "t": "Referendum removes presidential term limits",
+          "k": "reform"
+        },
+        {
+          "y": 2022,
+          "t": "Constitutional amendments approved",
+          "k": "constitution"
+        }
+      ]
+    }
+  },
+  "RUS": {
+    "gov": "On paper, Russia has an elected president and a parliament with two chambers. Researchers say real power sits with the president, and that the courts, parliament and most media follow his lead. A 2020 change to the constitution let the president then in office run for two more six-year terms. That could keep him in office until 2036.",
+    "vote": "Voters elect the president every six years and the 450-seat State Duma, the main chamber of parliament. Opposition candidates are often barred or jailed. Critics and many foreign observers say this means there's no fair contest for power. The government says its elections are lawful. Researchers call Russia an 'authoritarian regime' or 'electoral autocracy': there are votes, but opposition is tightly limited.",
+    "history": "Tsars ruled Russia for centuries. The 1917 revolution led to a communist state, and the Soviet Union formed in 1922. It broke up in 1991, and Boris Yeltsin led a fast, rocky move to elections and free markets. The current president first took office in 2000. Critics say political competition has shrunk since then. Supporters credit the government with bringing back stability.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "hos",
+          "v": "elect"
+        },
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "hos",
+          "b": "hog",
+          "v": "appoint"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "approve"
+        },
+        {
+          "a": "regions",
+          "b": "upper",
+          "v": "appoint"
+        }
+      ],
+      "labels": {
+        "lower": "State Duma",
+        "upper": "Federation Council",
+        "hog": "Prime Minister",
+        "hos": "President",
+        "regions": "Regional authorities",
+        "voters": "Voters"
+      },
+      "runs": "hos",
+      "electoral": {
+        "kind": "parallel",
+        "threshold": 5,
+        "age": 18,
+        "compulsory": false,
+        "term": 5
+      },
+      "timeline": [
+        {
+          "y": 1917,
+          "t": "Revolution overthrows the tsar",
+          "k": "revolution"
+        },
+        {
+          "y": 1922,
+          "t": "Soviet Union formed",
+          "k": "union"
+        },
+        {
+          "y": 1991,
+          "t": "Soviet Union dissolves",
+          "k": "independence"
+        },
+        {
+          "y": 1993,
+          "t": "Current constitution adopted",
+          "k": "constitution"
+        },
+        {
+          "y": 2020,
+          "t": "Amendments let president run again",
+          "k": "reform"
+        }
+      ]
+    }
+  },
+  "GRL": {
+    "gov": "Greenland largely runs itself as part of the Kingdom of Denmark. Its own parliament and prime minister handle most things, while Denmark handles defense and foreign policy.",
+    "vote": "Parties share out seats in the Inatsisartut by their votes. Greenland also elects two members to Denmark's parliament. Independence is a central question in its politics.",
+    "history": "Inuit peoples have lived in Greenland for centuries, and Denmark colonized it from the 1700s. It became part of Denmark in 1953, gained home rule in 1979, and wider self-government in 2009.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "choose"
+        }
+      ],
+      "labels": {
+        "lower": "Inatsisartut",
+        "hog": "Premier",
+        "voters": "Voters"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "list-pr",
+        "threshold": null,
+        "age": 18,
+        "compulsory": false,
+        "term": 4
+      },
+      "timeline": [
+        {
+          "y": 1953,
+          "t": "Becomes part of Denmark",
+          "k": "union"
+        },
+        {
+          "y": 1979,
+          "t": "Home rule begins",
+          "k": "reform"
+        },
+        {
+          "y": 2009,
+          "t": "Self-government takes effect",
+          "k": "reform"
+        }
+      ]
+    }
+  },
+  "CYN": {
+    "gov": "Northern Cyprus is a self-declared state in the north of the island of Cyprus. It has an elected president and parliament, and a prime minister who runs the government. Only Turkey recognizes it as a country. The Republic of Cyprus, the UN and nearly all other countries see the area as part of Cyprus under Turkish military occupation. Turkey and Turkish Cypriot leaders say Turkey's troops are there under a 1960 treaty, and that Turkish Cypriots have a right to rule themselves.",
+    "vote": "Voters elect a president and a parliament called the Assembly of the Republic. Turkish Cypriot officials run these elections and describe the state as independent. Almost no other country recognizes the state, so the wider world doesn't recognize its elections.",
+    "history": "After Cyprus became independent in 1960, violence broke out between Greek and Turkish Cypriots. In 1974 a coup backed by Greece's military government was followed by a Turkish military operation. The island has been split ever since. Turkish Cypriots declared their own republic in 1983, and the UN Security Council called that legally invalid. Talks to reunite the island have failed so far.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "voters",
+          "b": "hos",
+          "v": "elect"
+        },
+        {
+          "a": "hos",
+          "b": "hog",
+          "v": "appoint"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "approve"
+        }
+      ],
+      "labels": {
+        "lower": "Assembly of Republic",
+        "hog": "Prime Minister",
+        "hos": "President",
+        "voters": "Voters"
+      },
+      "runs": null,
+      "electoral": {
+        "kind": "list-pr",
+        "threshold": 5,
+        "age": 18,
+        "compulsory": null,
+        "term": 5
+      },
+      "timeline": [
+        {
+          "y": 1960,
+          "t": "Cyprus independent from Britain",
+          "k": "independence"
+        },
+        {
+          "y": 1974,
+          "t": "Coup and Turkish military intervention",
+          "k": "split"
+        },
+        {
+          "y": 1983,
+          "t": "Turkish Cypriots declare a separate state",
+          "k": "split"
+        },
+        {
+          "y": 1985,
+          "t": "North adopts its own constitution",
+          "k": "constitution"
+        }
+      ]
+    }
+  },
+  "JEY": {
+    "gov": "Jersey runs itself but belongs to the Crown. It isn't part of the United Kingdom, though the UK handles its defense and foreign affairs. An elected States Assembly makes its laws, and a Chief Minister picked by the Assembly runs the government. The King is head of state, with a Lieutenant Governor standing in for him. The Bailiff leads the Assembly's meetings.",
+    "vote": "Voters elect the States Assembly. It has island-wide senators, district deputies and one parish constable, called a connétable, for each of the twelve parishes. Most candidates have tended to be independents, not party members. The Assembly then picks the Chief Minister and other ministers from its own members.",
+    "history": "Jersey was part of the Duchy of Normandy. After Normandy was divided in 1204, the island stayed with the English Crown and kept its own laws and self-government. The States Assembly has been the island's only lawmaker since 1771. Since 2005 Jersey has had a ministerial system, led by a Chief Minister.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "choose"
+        },
+        {
+          "a": "crown",
+          "b": "hos",
+          "v": "appoint"
+        }
+      ],
+      "labels": {
+        "lower": "States Assembly",
+        "hog": "Chief Minister",
+        "hos": "Lieutenant Governor",
+        "crown": "The Crown",
+        "voters": "Voters"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "block",
+        "threshold": null,
+        "age": 16,
+        "compulsory": false,
+        "term": 4
+      },
+      "timeline": [
+        {
+          "y": 1204,
+          "t": "Stays with English Crown as Normandy splits",
+          "k": "monarchy"
+        },
+        {
+          "y": 1771,
+          "t": "States Assembly sole lawmaker",
+          "k": "constitution"
+        },
+        {
+          "y": 2005,
+          "t": "Ministerial government introduced",
+          "k": "reform"
+        }
+      ]
+    }
+  }
+}

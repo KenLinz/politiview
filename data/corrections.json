@@ -1,0 +1,215 @@
+{
+  "note": "Every mistake we know was shown on the public site, what was wrong, what's right, and how we found it. Newest first.",
+  "entries": [
+    {
+      "date": "2026-11-06",
+      "wrong": "Search called territories like South Georgia and the US Virgin Islands countries, with leaders that could be years out of date, and Paraguay's seats added up to 81 instead of 80.",
+      "right": "Places we can't double-check are labeled, and seats from a second chamber are no longer counted.",
+      "found": "A fourth AI reviewer.",
+      "fixed": "2026-11-06"
+    },
+    {
+      "date": "2026-11-05",
+      "wrong": "The plain text pages, and the backup copy of the data built into the site, kept old leaders for hours after the live data was corrected. So did anyone whose browser couldn't reach the live data.",
+      "right": "Both now update as soon as the data does.",
+      "found": "A third AI reviewer.",
+      "fixed": "2026-11-05"
+    },
+    {
+      "date": "2026-11-05",
+      "wrong": "Leaders' parties came from Wikidata alone, which keeps old parties as if they were current. Examples: Alassane Ouattara, Maia Sandu and Laʻauli Leuatea Schmidt.",
+      "right": "Each listed leader's party is now compared with their own Wikipedia page on every data update.",
+      "found": "A third AI reviewer.",
+      "fixed": "2026-11-05"
+    },
+    {
+      "date": "2026-11-05",
+      "wrong": "Germany's page called its seats the Bundesrat's, and several countries' seat counts were labeled with the whole parliament's name.",
+      "right": "Big countries now name the chamber the seats belong to.",
+      "found": "A third AI reviewer.",
+      "fixed": "2026-11-05"
+    },
+    {
+      "date": "2026-11-05",
+      "wrong": "A US House page could say 'Status: Incumbent re-elected' just under a note that nothing had confirmed it, and races with every precinct in said 'Still Counting'.",
+      "right": "The note is now labeled as Wikipedia's, and those races say they're too close to call or waiting for the final count.",
+      "found": "A third AI reviewer.",
+      "fixed": "2026-11-05"
+    },
+    {
+      "date": "2026-11-05",
+      "wrong": "We logged the claim that unrated places have unfree elections as fixed, but Tuvalu's Parties and Lawmakers pages still said it.",
+      "right": "It's gone from those pages too. This log was wrong to call it fixed.",
+      "found": "A second AI reviewer.",
+      "fixed": "2026-11-05"
+    },
+    {
+      "date": "2026-11-05",
+      "wrong": "Paraguay, Colombia, Gabon, Belize and Palau counted some parties twice, once for each chamber, which gave seat totals that didn't add up.",
+      "right": "Each party now counts once, from the chamber listed first.",
+      "found": "A second AI reviewer.",
+      "fixed": "2026-11-05"
+    },
+    {
+      "date": "2026-11-05",
+      "wrong": "Some AI summaries were about something other than the headline above them, and one outlet could be counted twice as sources.",
+      "right": "A summary now has to be about the headline's subject, or the outlet's own words are shown. Outlets are counted once, and Wikipedia isn't counted as one.",
+      "found": "A second AI reviewer.",
+      "fixed": "2026-11-05"
+    },
+    {
+      "date": "2026-11-05",
+      "wrong": "Winners only Wikipedia named became news headlines.",
+      "right": "They stay on the map labeled Reported, and aren't news until a state count or two outlets agree.",
+      "found": "A second AI reviewer.",
+      "fixed": "2026-11-05"
+    },
+    {
+      "date": "2026-11-05",
+      "wrong": "Leaders were out of date or wrong in dozens of countries, because they came from one source. Examples: Ghana, Guyana, Zambia, Malawi, Paraguay and Tuvalu. Iran's Supreme Leader was labeled its President, and Palestine showed no leader at all.",
+      "right": "Every top job is now compared with a second list each time the data updates, and the second list wins when they differ.",
+      "found": "A separate AI reviewer, then a check of every country.",
+      "fixed": "2026-11-05"
+    },
+    {
+      "date": "2026-11-05",
+      "wrong": "The Dictionary listed China and Cuba as real-world examples of democracy, because their governments use that word.",
+      "right": "Examples of a kind of government now have to be rated as that kind.",
+      "found": "A separate AI reviewer.",
+      "fixed": "2026-11-05"
+    },
+    {
+      "date": "2026-11-05",
+      "wrong": "Places with no research rating, like Tuvalu, were described as having elections that aren't free or fair.",
+      "right": "Those places now say they aren't rated, which says nothing against them. Palestine's label came from a 1948 rating and was removed.",
+      "found": "A separate AI reviewer.",
+      "fixed": "2026-11-05"
+    },
+    {
+      "date": "2026-11-05",
+      "wrong": "AI-written headlines sometimes didn't match their stories, and some summaries said almost nothing.",
+      "right": "News cards now always use the outlet's own headline. Vague summaries aren't shown, and AI summaries are labeled on the card.",
+      "found": "A separate AI reviewer.",
+      "fixed": "2026-11-05"
+    },
+    {
+      "date": "2026-11-05",
+      "wrong": "Winners got a check mark on Wikipedia's word alone, and the top story said Democrats 'now hold' majorities that don't start until January.",
+      "right": "A check mark now needs a state count or two news outlets, and the wording says when the new Congress starts.",
+      "found": "A separate AI reviewer.",
+      "fixed": "2026-11-05"
+    },
+    {
+      "date": "2026-11-05",
+      "wrong": "A 'Confirmed By 25 News Outlets' label counted stories that didn't confirm the claim, like a markets blog, and a 'Wikipedia' link went to another site.",
+      "right": "Only headlines saying a party won a chamber now count, and links go where they say they go.",
+      "found": "A separate AI reviewer.",
+      "fixed": "2026-11-05"
+    },
+    {
+      "date": "2026-11-05",
+      "wrong": "The party page said it showed 'what each one says', but the Republican summary called the party 'far-right' and said some people consider its views prejudiced, while the Democratic summary described the party's goals. A tester pointed this out.",
+      "right": "That wasn't what the party says, and the two weren't treated alike. Both US parties are now described in the same format from their own 2024 platforms. For every party in every country, plain-language notes can no longer use labels that come from critics.",
+      "found": "A test reader, played by an AI.",
+      "fixed": "2026-11-05"
+    },
+    {
+      "date": "2026-11-05",
+      "wrong": "Mozambique's prime minister, Maria Benvinda Levy, was shown as the person running the government.",
+      "right": "President Daniel Chapo is head of government there. We checked other countries with a similar setup and corrected them too.",
+      "found": "A separate AI fact checker.",
+      "fixed": "2026-11-05"
+    },
+    {
+      "date": "2026-11-05",
+      "wrong": "Togo's leader was listed under the Rally of the Togolese People.",
+      "right": "That party was dissolved in 2012. Faure Gnassingbé's party is the Union for the Republic.",
+      "found": "A separate AI fact checker.",
+      "fixed": "2026-11-05"
+    },
+    {
+      "date": "2026-11-05",
+      "wrong": "France's president was described as the one who 'runs the government'.",
+      "right": "France's president and prime minister share power. Both are now described that way.",
+      "found": "A separate AI fact checker.",
+      "fixed": "2026-11-05"
+    },
+    {
+      "date": "2026-11-05",
+      "wrong": "Results in countries without free elections, like Laos, read like any other contest.",
+      "right": "Those pages now say that the seats don't show how much people back each party.",
+      "found": "A separate AI fact checker.",
+      "fixed": "2026-11-05"
+    },
+    {
+      "date": "2026-11-05",
+      "wrong": "Indonesia's page said the 1998 financial crisis brought Suharto down.",
+      "right": "The crisis began in 1997, and huge protests also forced him out in 1998.",
+      "found": "A separate AI fact checker.",
+      "fixed": "2026-11-05"
+    },
+    {
+      "date": "2026-11-05",
+      "wrong": "Moldova's 'last election' was actually a vote in Transnistria, a breakaway region. Ireland's 2024 election was missing, and so was Palau's.",
+      "right": "Votes in breakaway regions no longer count as a country's own, and the missing elections are back.",
+      "found": "Comparing our data with the Inter-Parliamentary Union's.",
+      "fixed": "2026-11-05"
+    },
+    {
+      "date": "2026-11-05",
+      "wrong": "Parties were often shown only by initials, like NFP in France, and Washington, DC's mayor was listed as its governor.",
+      "right": "Parties now use their full names, and DC has a mayor.",
+      "found": "Our own review.",
+      "fixed": "2026-11-05"
+    },
+    {
+      "date": "2026-11-04",
+      "wrong": "Minnesota's US Senate seat and four of its House seats (MN-02, MN-03, MN-04 and MN-05) were shown as flipping to the Democrats.",
+      "right": "Democrats already held all five, so none of them flipped. Minnesota's Democrats are called the DFL, and our code didn't read that name in Wikipedia's tables as Democratic.",
+      "found": "Our own review of the live data.",
+      "fixed": "2026-11-04"
+    },
+    {
+      "date": "2026-11-04",
+      "wrong": "The US Virgin Islands and Northern Mariana Islands races for governor were merged into Guam's, so Guam's page listed the Virgin Islands' governor as its own.",
+      "right": "They are three separate races, and each now has its own record.",
+      "found": "Our own review of the live data.",
+      "fixed": "2026-11-04"
+    },
+    {
+      "date": "2026-11-04",
+      "wrong": "Senators who were appointed, including Jon Husted and Ashley Moody, were missing from their races, so our backup count added up to 104 senators instead of 100.",
+      "right": "Their records now show who held each seat. The main count on the site came from a different table and wasn't affected.",
+      "found": "Our own review of the live data.",
+      "fixed": "2026-11-04"
+    },
+    {
+      "date": "2026-11-04",
+      "wrong": "An AI summary called Adam Hamawy, an Egyptian-American candidate, a person of Palestinian heritage, and filed the story under Palestine.",
+      "right": "The sources described him as Egyptian-American. The model guessed the rest from a mention of him volunteering in Gaza. Stories are now placed from their headlines only, and the model is told never to guess anyone's background.",
+      "found": "Our own spot check of AI summaries.",
+      "fixed": "2026-11-04"
+    },
+    {
+      "date": "2026-11-04",
+      "wrong": "An AI summary headlined 'Iran Praises U.S. Election Results' blended Israeli and Ukrainian news into the same story, then added a conclusion of its own about how countries choose their governments.",
+      "right": "The source was a news roundup covering several separate stories. Roundups are no longer summarized at all, and every sentence must now pass a second check against its sources.",
+      "found": "Our own spot check of AI summaries.",
+      "fixed": "2026-11-04"
+    },
+    {
+      "date": "2026-11-04",
+      "wrong": "An AI summary said Gadi Eisenkot was the main person trying to form Israel's new government, while another story said the President was still deciding who goes first.",
+      "right": "The sources did not support the first claim. That story's summary was removed.",
+      "found": "Our own spot check of AI summaries.",
+      "fixed": "2026-11-04"
+    },
+    {
+      "date": "2026-11-04",
+      "wrong": "News cards showed who 'gains' and who 'loses' from a story, such as 'Labour Party' gaining from talks on slavery. Those were the AI's own opinions.",
+      "right": "That feature is gone. The only gain or loss shown now is a seat recorded as changing hands, once it's been confirmed.",
+      "found": "Our own spot check of AI summaries.",
+      "fixed": "2026-11-04"
+    }
+  ]
+}
