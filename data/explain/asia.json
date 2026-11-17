@@ -1,0 +1,2683 @@
+{
+  "CHN": {
+    "gov": "The Chinese Communist Party runs the country, and its top leader, the General Secretary, holds the most power. The government, courts and army all answer to the party. Xi Jinping is also president, and in 2018 the limit on a president's terms was removed.",
+    "vote": "There are no national elections where voters choose between parties. People can vote for local representatives, usually from approved candidates. Those bodies choose the level above them, up to the National People's Congress. The government calls this a different kind of democracy. Critics say it gives no real choice.",
+    "history": "China's last dynasty fell in 1912. Nationalists and Communists fought a long civil war. In 1949 Mao Zedong declared the People's Republic, and the Nationalists fell back to Taiwan. After Mao, Deng Xiaoping opened up the economy from 1978 but kept party rule. The army ended pro-democracy protests in Tiananmen Square in 1989.",
+    "facts": {
+      "power": [
+        {
+          "a": "party",
+          "b": "lower",
+          "v": "choose"
+        },
+        {
+          "a": "lower",
+          "b": "hos",
+          "v": "elect"
+        },
+        {
+          "a": "party",
+          "b": "hog",
+          "v": "choose"
+        }
+      ],
+      "labels": {
+        "party": "Communist Party",
+        "lower": "People's Congress",
+        "hog": "Premier",
+        "hos": "President"
+      },
+      "runs": "party",
+      "electoral": {
+        "kind": "indirect",
+        "threshold": null,
+        "age": 18,
+        "compulsory": false,
+        "term": 5
+      },
+      "timeline": [
+        {
+          "y": 1912,
+          "t": "The last imperial dynasty falls",
+          "k": "revolution"
+        },
+        {
+          "y": 1949,
+          "t": "People's Republic of China is founded",
+          "k": "revolution"
+        },
+        {
+          "y": 1978,
+          "t": "Economic opening begins, party rule kept",
+          "k": "reform"
+        },
+        {
+          "y": 1982,
+          "t": "Current constitution adopted",
+          "k": "constitution"
+        },
+        {
+          "y": 2018,
+          "t": "Limit on presidential terms removed",
+          "k": "reform"
+        }
+      ]
+    }
+  },
+  "JPN": {
+    "gov": "Voters elect a parliament called the Diet, and it chooses a prime minister, who runs the government. The emperor is a symbol with no political power. One party, the Liberal Democrats, has governed for almost all of the time since 1955.",
+    "vote": "Voters cast two ballots for the powerful lower house: one for a local candidate and one for a party. The two sets of seats are counted separately, so it's a mixed system without a top-up. The upper house has its own elections. The prime minister can call a lower-house election early.",
+    "history": "Japan was ruled by a militarist government and an empire until its defeat in World War II. During the US occupation, a new constitution in 1947 moved power from the emperor to the people and renounced war. Women voted for the first time in 1946.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "voters",
+          "b": "upper",
+          "v": "elect"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "choose"
+        },
+        {
+          "a": "family",
+          "b": "hos",
+          "v": "inherit"
+        }
+      ],
+      "labels": {
+        "lower": "House of Reps.",
+        "upper": "House of Councillors",
+        "hog": "Prime Minister",
+        "hos": "Emperor",
+        "family": "Imperial family"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "parallel",
+        "threshold": null,
+        "age": 18,
+        "compulsory": false,
+        "term": 4
+      },
+      "timeline": [
+        {
+          "y": 1889,
+          "t": "Meiji constitution creates a parliament",
+          "k": "constitution"
+        },
+        {
+          "y": 1946,
+          "t": "Women vote for the first time",
+          "k": "suffrage"
+        },
+        {
+          "y": 1947,
+          "t": "New constitution: power moves to the people",
+          "k": "democracy"
+        },
+        {
+          "y": 1955,
+          "t": "Liberal Democratic Party formed, begins long rule",
+          "k": "reform"
+        }
+      ]
+    }
+  },
+  "IND": {
+    "gov": "Voters elect the Lok Sabha, and the leader of its majority becomes prime minister and runs the government. A president, picked by lawmakers, is mostly for show. India has 28 states with their own elected governments. It's the largest democracy on Earth by number of voters.",
+    "vote": "Voters in 543 local areas each elect one member, and whoever gets the most votes wins. Voting takes weeks, because nearly a billion people can vote. Some seats are saved for groups held back in the past. Researchers at V-Dem have lately rated India an 'electoral autocracy', which its government disputes.",
+    "history": "Britain ruled India until independence in 1947, when it was split into India and Pakistan. The split killed hundreds of thousands of people, by some estimates up to two million. The 1950 constitution created a secular democracy. Apart from emergency rule from 1975 to 1977, elections have gone on ever since.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "choose"
+        },
+        {
+          "a": "electors",
+          "b": "hos",
+          "v": "elect"
+        },
+        {
+          "a": "regions",
+          "b": "upper",
+          "v": "choose"
+        }
+      ],
+      "labels": {
+        "lower": "Lok Sabha",
+        "upper": "Rajya Sabha",
+        "hog": "Prime Minister",
+        "hos": "President",
+        "electors": "MPs + state lawmakers",
+        "regions": "State assemblies"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "fptp",
+        "threshold": null,
+        "age": 18,
+        "compulsory": false,
+        "term": 5
+      },
+      "timeline": [
+        {
+          "y": 1947,
+          "t": "Independence from Britain; partition",
+          "k": "independence"
+        },
+        {
+          "y": 1950,
+          "t": "Constitution creates a democratic republic",
+          "k": "constitution"
+        },
+        {
+          "y": 1975,
+          "t": "Emergency rule suspends normal politics",
+          "k": "reform"
+        },
+        {
+          "y": 1977,
+          "t": "Emergency ends; elections return",
+          "k": "democracy"
+        }
+      ]
+    }
+  },
+  "IDN": {
+    "gov": "Voters elect a president, who runs the government, along with a national parliament. Indonesia is the world's third-largest democracy, spread over thousands of islands.",
+    "vote": "A presidential candidate must win a majority overall, plus at least 20% in over half of the provinces, or else there's a runoff. Parliament's seats are shared by party vote share. Indonesia holds one of the largest single-day elections in the world.",
+    "history": "The Dutch ruled these islands for centuries. Indonesia declared independence in 1945, and the Netherlands accepted that in 1949. General Suharto took power amid mass killings in 1965 and 1966, and ruled for over 30 years. A financial crisis and huge protests forced him out in 1998, and democracy followed.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "hog",
+          "v": "elect"
+        },
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "voters",
+          "b": "upper",
+          "v": "elect"
+        }
+      ],
+      "labels": {
+        "lower": "House (DPR)",
+        "upper": "Regional Council (DPD)",
+        "hog": "President"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "list-pr",
+        "threshold": 4,
+        "age": 17,
+        "compulsory": false,
+        "term": 5
+      },
+      "timeline": [
+        {
+          "y": 1945,
+          "t": "Independence declared from the Dutch",
+          "k": "independence"
+        },
+        {
+          "y": 1949,
+          "t": "Netherlands accepts independence",
+          "k": "independence"
+        },
+        {
+          "y": 1967,
+          "t": "Suharto takes over the presidency",
+          "k": "coup"
+        },
+        {
+          "y": 1998,
+          "t": "Suharto resigns; democracy begins",
+          "k": "democracy"
+        },
+        {
+          "y": 2004,
+          "t": "First direct presidential election",
+          "k": "democracy"
+        }
+      ]
+    }
+  },
+  "PAK": {
+    "gov": "Voters elect a National Assembly, and the prime minister runs the government. A president, picked by lawmakers, is mostly for show. The army has ruled directly several times, and many observers say it stays very powerful behind the scenes.",
+    "vote": "Most seats go to whoever gets the most votes in each area. Others are saved for women and religious minorities and shared among the parties. Former prime minister Imran Khan was jailed before the 2024 election, and his party lost its symbol, so its candidates ran as independents. His party and many observers disputed the result, and officials defended it.",
+    "history": "Pakistan was created in 1947 as a homeland for South Asia's Muslims, when British India was partitioned. East Pakistan broke away as Bangladesh in 1971. Generals have seized power several times, and no prime minister has ever completed a full term.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "choose"
+        },
+        {
+          "a": "electors",
+          "b": "hos",
+          "v": "elect"
+        },
+        {
+          "a": "regions",
+          "b": "upper",
+          "v": "elect"
+        }
+      ],
+      "labels": {
+        "lower": "National Assembly",
+        "upper": "Senate",
+        "hog": "Prime Minister",
+        "hos": "President",
+        "electors": "Parliament + provinces",
+        "regions": "Provincial assemblies"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "fptp",
+        "threshold": null,
+        "age": 18,
+        "compulsory": false,
+        "term": 5
+      },
+      "timeline": [
+        {
+          "y": 1947,
+          "t": "Independence; British India is partitioned",
+          "k": "independence"
+        },
+        {
+          "y": 1958,
+          "t": "First military takeover",
+          "k": "coup"
+        },
+        {
+          "y": 1971,
+          "t": "East Pakistan becomes Bangladesh",
+          "k": "split"
+        },
+        {
+          "y": 1973,
+          "t": "Current constitution adopted",
+          "k": "constitution"
+        },
+        {
+          "y": 2010,
+          "t": "Presidential powers cut back to parliament",
+          "k": "reform"
+        }
+      ]
+    }
+  },
+  "BGD": {
+    "gov": "Voters elect a parliament, and the prime minister runs the government. A president's job is mostly for show. In 2024, an uprising led by students ended Sheikh Hasina's 15 years in power. Opponents said her elections were unfair, which her party denied.",
+    "vote": "Whoever gets the most votes in each of 300 areas wins, and 50 more seats are saved for women. A temporary government led by Nobel winner Muhammad Yunus held an election on 12 February 2026, along with a vote on reforms. The Bangladesh Nationalist Party won most seats, and Hasina's Awami League was barred from taking part.",
+    "history": "Bangladesh was East Pakistan until a 1971 war of independence, in which India helped. Coups and army rule followed. Two rival parties then took turns in power. Hasina's Awami League held on from 2009, including through elections in 2014 and 2024 that the main opposition refused to join.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "choose"
+        },
+        {
+          "a": "lower",
+          "b": "hos",
+          "v": "elect"
+        }
+      ],
+      "labels": {
+        "lower": "Jatiya Sangsad",
+        "hog": "Prime Minister",
+        "hos": "President"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "fptp",
+        "threshold": null,
+        "age": 18,
+        "compulsory": false,
+        "term": 5
+      },
+      "timeline": [
+        {
+          "y": 1971,
+          "t": "Independence from Pakistan after a war",
+          "k": "independence"
+        },
+        {
+          "y": 1975,
+          "t": "Coup begins years of military rule",
+          "k": "coup"
+        },
+        {
+          "y": 1991,
+          "t": "Parliamentary democracy restored",
+          "k": "democracy"
+        },
+        {
+          "y": 2024,
+          "t": "Student-led uprising ends Hasina's rule",
+          "k": "revolution"
+        }
+      ]
+    }
+  },
+  "LKA": {
+    "gov": "A president, elected by voters, holds major power, along with a parliament and a prime minister. Protests in 2022, during an economic collapse, forced the president to flee the country and resign.",
+    "vote": "Voters rank up to three presidential candidates, and second choices count if nobody gets a majority. Parliament's seats are shared by party vote share.",
+    "history": "Sri Lanka won independence from Britain in 1948. It fought a 26-year civil war against Tamil separatists, which ended in 2009 with many civilian deaths. In 2024, voters elected a left-wing candidate from outside the two old parties that had long led politics.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "hog",
+          "v": "elect"
+        },
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        }
+      ],
+      "labels": {
+        "lower": "Parliament",
+        "hog": "President"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "list-pr",
+        "threshold": null,
+        "age": 18,
+        "compulsory": false,
+        "term": 5
+      },
+      "timeline": [
+        {
+          "y": 1948,
+          "t": "Independence from Britain",
+          "k": "independence"
+        },
+        {
+          "y": 1978,
+          "t": "Constitution creates a powerful elected president",
+          "k": "constitution"
+        },
+        {
+          "y": 2009,
+          "t": "Civil war ends",
+          "k": "reform"
+        },
+        {
+          "y": 2022,
+          "t": "Protests force the president to resign",
+          "k": "revolution"
+        }
+      ]
+    }
+  },
+  "NPL": {
+    "gov": "Voters elect a parliament, and a prime minister runs the government. A president is ceremonial. Nepal was a Hindu kingdom until 2008, and it's now a federal republic.",
+    "vote": "A mixed system: 165 members win local areas, and 110 get seats by party vote share. Youth-led protests in September 2025 toppled the government, and a new election in March 2026 was won by the Rastriya Swatantra Party.",
+    "history": "A Maoist rebellion from 1996 to 2006 ended with a peace deal. That led to the end of the 240-year-old monarchy in 2008, and a new constitution in 2015. Governments have rarely lasted long since.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "choose"
+        },
+        {
+          "a": "electors",
+          "b": "hos",
+          "v": "elect"
+        },
+        {
+          "a": "regions",
+          "b": "upper",
+          "v": "choose"
+        }
+      ],
+      "labels": {
+        "lower": "House of Reps.",
+        "upper": "National Assembly",
+        "hog": "Prime Minister",
+        "hos": "President",
+        "electors": "Parliament + provinces",
+        "regions": "Provincial bodies"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "parallel",
+        "threshold": 3,
+        "age": 18,
+        "compulsory": false,
+        "term": 5
+      },
+      "timeline": [
+        {
+          "y": 1768,
+          "t": "Kingdom of Nepal is unified",
+          "k": "monarchy"
+        },
+        {
+          "y": 1990,
+          "t": "Revolution ends party ban; constitutional monarchy",
+          "k": "democracy"
+        },
+        {
+          "y": 2006,
+          "t": "Peace deal ends Maoist rebellion",
+          "k": "reform"
+        },
+        {
+          "y": 2008,
+          "t": "Monarchy abolished; Nepal becomes a republic",
+          "k": "monarchy"
+        },
+        {
+          "y": 2015,
+          "t": "Federal constitution adopted",
+          "k": "constitution"
+        }
+      ]
+    }
+  },
+  "BTN": {
+    "gov": "A king is head of state, but an elected parliament and prime minister run the government. Unusually, the king himself pushed the country to democracy, even though many people liked things as they were.",
+    "vote": "Voters first choose between parties in a primary round, and then the top two compete in each of the 47 local areas. The upper house is elected without parties, plus five members the king appoints.",
+    "history": "The Wangchuck dynasty has ruled since 1907. Bhutan stayed largely isolated until the 1960s. It's known for measuring 'Gross National Happiness', and held its first national elections in 2007-08.",
+    "facts": {
+      "power": [
+        {
+          "a": "family",
+          "b": "hos",
+          "v": "inherit"
+        },
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "voters",
+          "b": "upper",
+          "v": "elect"
+        },
+        {
+          "a": "hos",
+          "b": "hog",
+          "v": "appoint"
+        }
+      ],
+      "labels": {
+        "family": "Royal family",
+        "hos": "King",
+        "lower": "National Assembly",
+        "upper": "National Council",
+        "hog": "Prime Minister"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "fptp",
+        "threshold": null,
+        "age": 18,
+        "compulsory": false,
+        "term": 5
+      },
+      "timeline": [
+        {
+          "y": 1907,
+          "t": "Wangchuck dynasty begins hereditary rule",
+          "k": "monarchy"
+        },
+        {
+          "y": 2007,
+          "t": "Political parties legalized",
+          "k": "reform"
+        },
+        {
+          "y": 2008,
+          "t": "First constitution; first elections",
+          "k": "constitution"
+        }
+      ]
+    }
+  },
+  "MDV": {
+    "gov": "A president, elected by voters, runs the government, along with a parliament with one chamber.",
+    "vote": "The president needs a majority, or there's a runoff. Parliament is elected by first-past-the-post. Voting with many parties began only in 2008.",
+    "history": "The Maldives was once under British protection. Maumoon Gayoom ruled it for 30 years until 2008. Democracy has been rocky since, and rising seas threaten the low-lying islands.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "hog",
+          "v": "elect"
+        },
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        }
+      ],
+      "labels": {
+        "lower": "People's Majlis",
+        "hog": "President"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "fptp",
+        "threshold": null,
+        "age": 18,
+        "compulsory": false,
+        "term": 5
+      },
+      "timeline": [
+        {
+          "y": 1965,
+          "t": "Independence from Britain",
+          "k": "independence"
+        },
+        {
+          "y": 2005,
+          "t": "Political parties legalized",
+          "k": "reform"
+        },
+        {
+          "y": 2008,
+          "t": "New constitution; first multi-party presidential vote",
+          "k": "democracy"
+        }
+      ]
+    }
+  },
+  "AFG": {
+    "gov": "The Taliban rule through a supreme leader, under their strict reading of Islamic law. There's no working constitution, no parliament and no elections. Girls and women are barred from secondary school and university. Most countries don't formally recognize the government.",
+    "vote": "There are no elections. The Taliban say elections have no place in their system.",
+    "history": "Afghanistan's monarchy ended in 1973. A Soviet invasion in 1979 led to a decade of war, then civil war, and the Taliban took over in 1996. A US-led invasion toppled them after 9/11. When US forces withdrew in 2021, the elected government collapsed and the Taliban returned.",
+    "facts": {
+      "power": [
+        {
+          "a": "clerics",
+          "b": "hog",
+          "v": "appoint"
+        }
+      ],
+      "labels": {
+        "clerics": "Taliban Supreme Leader",
+        "hog": "Prime Minister"
+      },
+      "runs": "clerics",
+      "electoral": {
+        "kind": "none",
+        "threshold": null,
+        "age": null,
+        "compulsory": false,
+        "term": null
+      },
+      "timeline": [
+        {
+          "y": 1973,
+          "t": "Monarchy ends",
+          "k": "monarchy"
+        },
+        {
+          "y": 1979,
+          "t": "Soviet invasion begins a long war",
+          "k": "reform"
+        },
+        {
+          "y": 1996,
+          "t": "Taliban first take power",
+          "k": "coup"
+        },
+        {
+          "y": 2001,
+          "t": "US-led invasion removes the Taliban",
+          "k": "reform"
+        },
+        {
+          "y": 2021,
+          "t": "Taliban retake power",
+          "k": "coup"
+        }
+      ]
+    }
+  },
+  "IRN": {
+    "gov": "Iran mixes elections with rule by clerics. A Supreme Leader, a senior cleric nobody votes for, has the final say over the army, the courts and major policy. An elected president runs daily government.",
+    "vote": "People do vote for president and parliament. But a council of clerics and legal experts can block anyone from running, and it often removes reformers. So voters get a choice, but only among those approved.",
+    "history": "The US and Britain helped overthrow an elected prime minister in 1953, which gave the shah his power back. The 1979 Islamic Revolution, led by Ayatollah Khomeini, overthrew the shah and created today's system. Large protests have challenged it again and again since.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "hog",
+          "v": "elect"
+        },
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "voters",
+          "b": "electors",
+          "v": "elect"
+        },
+        {
+          "a": "electors",
+          "b": "clerics",
+          "v": "choose"
+        },
+        {
+          "a": "clerics",
+          "b": "hog",
+          "v": "approve"
+        },
+        {
+          "a": "clerics",
+          "b": "lower",
+          "v": "approve"
+        }
+      ],
+      "labels": {
+        "lower": "Majlis (parliament)",
+        "hog": "President",
+        "electors": "Assembly of Experts",
+        "clerics": "Supreme Leader"
+      },
+      "runs": "clerics",
+      "electoral": {
+        "kind": "other",
+        "threshold": null,
+        "age": 18,
+        "compulsory": false,
+        "term": 4
+      },
+      "timeline": [
+        {
+          "y": 1953,
+          "t": "Elected prime minister overthrown with US and UK help",
+          "k": "coup"
+        },
+        {
+          "y": 1979,
+          "t": "Islamic Revolution overthrows the shah",
+          "k": "revolution"
+        },
+        {
+          "y": 1979,
+          "t": "Constitution sets up rule by a Supreme Leader",
+          "k": "constitution"
+        }
+      ]
+    }
+  },
+  "IRQ": {
+    "gov": "Voters elect a parliament, which elects a president whose job is mostly for show. The president names a prime minister, who holds the real power once parliament approves. By informal deal, top jobs are shared among groups: a Shia Arab prime minister, a Kurdish president and a Sunni Arab speaker.",
+    "vote": "Seats are shared by vote share within provinces, with some reserved for women and minorities. Forming a government often takes months of negotiation.",
+    "history": "Britain drew Iraq's borders after World War I. Saddam Hussein ruled as a dictator from 1979, until a US-led invasion in 2003 overthrew him. Sectarian war followed, and the group ISIS seized large areas before being pushed back.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "lower",
+          "b": "hos",
+          "v": "elect"
+        },
+        {
+          "a": "hos",
+          "b": "hog",
+          "v": "appoint"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "approve"
+        }
+      ],
+      "labels": {
+        "lower": "Council of Reps.",
+        "hos": "President",
+        "hog": "Prime Minister"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "list-pr",
+        "threshold": null,
+        "age": 18,
+        "compulsory": false,
+        "term": 4
+      },
+      "timeline": [
+        {
+          "y": 1932,
+          "t": "Kingdom of Iraq becomes independent",
+          "k": "independence"
+        },
+        {
+          "y": 1958,
+          "t": "Army officers overthrow the monarchy",
+          "k": "revolution"
+        },
+        {
+          "y": 2003,
+          "t": "US-led invasion removes Saddam Hussein",
+          "k": "reform"
+        },
+        {
+          "y": 2005,
+          "t": "New constitution approved",
+          "k": "constitution"
+        }
+      ]
+    }
+  },
+  "SYR": {
+    "gov": "Syria is between governments. Rebels overthrew Bashar al-Assad in December 2024, and their leader, Ahmed al-Sharaa, became temporary president. A temporary constitution gives him wide powers for five years.",
+    "vote": "Critics say elections under Assad were staged. A new assembly was chosen in 2025. Local groups set up by a government committee filled 140 seats, with no public vote, and the president appointed 70. Full national elections have been promised for later.",
+    "history": "Independent from France in 1946, Syria was ruled by the Assad family from 1970. Peaceful protests in 2011 were met with force, and a civil war followed that displaced about half the population.",
+    "facts": {
+      "power": [
+        {
+          "a": "electors",
+          "b": "lower",
+          "v": "choose"
+        },
+        {
+          "a": "hog",
+          "b": "lower",
+          "v": "appoint"
+        }
+      ],
+      "labels": {
+        "electors": "Local electoral colleges",
+        "lower": "People's Assembly",
+        "hog": "Interim President"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "indirect",
+        "threshold": null,
+        "age": null,
+        "compulsory": false,
+        "term": null
+      },
+      "timeline": [
+        {
+          "y": 1946,
+          "t": "Independence from France",
+          "k": "independence"
+        },
+        {
+          "y": 1970,
+          "t": "Hafez al-Assad takes power",
+          "k": "coup"
+        },
+        {
+          "y": 2011,
+          "t": "Protests turn into a civil war",
+          "k": "revolution"
+        },
+        {
+          "y": 2024,
+          "t": "Assad government overthrown",
+          "k": "revolution"
+        },
+        {
+          "y": 2025,
+          "t": "Temporary constitution issued",
+          "k": "constitution"
+        }
+      ]
+    }
+  },
+  "LBN": {
+    "gov": "Voters elect a parliament, and top jobs are shared by religion. The president must be a Maronite Christian, the prime minister a Sunni Muslim and the speaker a Shia Muslim.",
+    "vote": "Seats in parliament are split evenly between Christians and Muslims, and voters choose lists that win seats by their share of votes. Deadlock is common, including a presidency left empty for over two years until 2025.",
+    "history": "France created this system before independence in 1943. A civil war from 1975 to 1990 ended with the Taif Agreement. The armed group Hezbollah has remained powerful, and a financial collapse from 2019 and a huge 2020 port explosion deepened the crisis.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "lower",
+          "b": "hos",
+          "v": "elect"
+        },
+        {
+          "a": "hos",
+          "b": "hog",
+          "v": "appoint"
+        }
+      ],
+      "labels": {
+        "lower": "Parliament",
+        "hos": "President",
+        "hog": "Prime Minister"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "list-pr",
+        "threshold": null,
+        "age": null,
+        "compulsory": false,
+        "term": 4
+      },
+      "timeline": [
+        {
+          "y": 1943,
+          "t": "Independence; religious power-sharing pact",
+          "k": "independence"
+        },
+        {
+          "y": 1975,
+          "t": "Civil war begins",
+          "k": "split"
+        },
+        {
+          "y": 1989,
+          "t": "Taif Agreement revises power-sharing",
+          "k": "constitution"
+        }
+      ]
+    }
+  },
+  "ISR": {
+    "gov": "Voters elect the Knesset, and the prime minister must hold its support. A president, chosen by the Knesset, is mostly ceremonial. Israel has no single written constitution, but rather a set of Basic Laws.",
+    "vote": "The whole country is one district, and 120 seats are shared by party vote share, with a 3.25% minimum. No party has ever won a majority alone, so small parties have a lot of influence. An election was held on 27 October 2026, and early reports say no bloc won a majority, so a new government may take time to form. Palestinians in the West Bank and Gaza can't vote in Israeli elections.",
+    "history": "Israel declared independence in 1948 as a Jewish state, after British rule in the region ended and after the Holocaust. War with Arab neighbors followed. Hundreds of thousands of Palestinians fled or were driven out, which Palestinians call the Nakba. Israel captured the West Bank and Gaza in 1967. The conflict has gone on, including the war in Gaza that began after Hamas's attack on 7 October 2023.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "choose"
+        },
+        {
+          "a": "lower",
+          "b": "hos",
+          "v": "elect"
+        }
+      ],
+      "labels": {
+        "lower": "Knesset",
+        "hog": "Prime Minister",
+        "hos": "President"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "list-pr",
+        "threshold": 3.25,
+        "age": 18,
+        "compulsory": false,
+        "term": 4
+      },
+      "timeline": [
+        {
+          "y": 1948,
+          "t": "Israel declares independence",
+          "k": "independence"
+        },
+        {
+          "y": 1958,
+          "t": "First Basic Law sets up the Knesset",
+          "k": "constitution"
+        },
+        {
+          "y": 1992,
+          "t": "Basic Laws on human rights passed",
+          "k": "constitution"
+        }
+      ]
+    }
+  },
+  "PSX": {
+    "gov": "The Palestinian Authority has limited self-rule in parts of the West Bank, led by a president, while Hamas has run Gaza since 2007. Israel has held both areas since 1967 and controls much of the West Bank. It says they are disputed, while the UN and many countries call them occupied. About 157 of the UN's 193 members recognize Palestine as a state, but Israel, the US and others do not.",
+    "vote": "The last election for parliament was in 2006, which Hamas won, and the last for president was in 2005. Elections have been promised and canceled again and again.",
+    "history": "The 1993 Oslo Accords created the Palestinian Authority as a step toward a state, which has not come about. Fighting between Fatah and Hamas split the West Bank and Gaza in 2007. The war that began in October 2023 devastated Gaza.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "hos",
+          "v": "elect"
+        },
+        {
+          "a": "hos",
+          "b": "hog",
+          "v": "appoint"
+        }
+      ],
+      "labels": {
+        "hos": "President",
+        "hog": "Prime Minister"
+      },
+      "runs": "hos",
+      "electoral": {
+        "kind": "other",
+        "threshold": null,
+        "age": 18,
+        "compulsory": false,
+        "term": 4
+      },
+      "timeline": [
+        {
+          "y": 1988,
+          "t": "PLO declares the State of Palestine",
+          "k": "independence"
+        },
+        {
+          "y": 1993,
+          "t": "Oslo Accords create the Palestinian Authority",
+          "k": "reform"
+        },
+        {
+          "y": 2006,
+          "t": "Hamas wins the last parliamentary election",
+          "k": "democracy"
+        },
+        {
+          "y": 2007,
+          "t": "Hamas takes Gaza; West Bank and Gaza split",
+          "k": "split"
+        }
+      ]
+    }
+  },
+  "JOR": {
+    "gov": "The king holds most power, appointing the prime minister and senators and able to dissolve parliament. Voters elect a lower house.",
+    "vote": "Voters choose both local candidates and national party lists, and new rules are slowly giving parties a bigger share. Lawmakers have limited power over the king's government.",
+    "history": "Britain created Jordan after World War I, under a family from Arabia, and it became independent in 1946. It has taken in huge numbers of Palestinian, Iraqi and Syrian refugees.",
+    "facts": {
+      "power": [
+        {
+          "a": "family",
+          "b": "hos",
+          "v": "inherit"
+        },
+        {
+          "a": "hos",
+          "b": "hog",
+          "v": "appoint"
+        },
+        {
+          "a": "hos",
+          "b": "upper",
+          "v": "appoint"
+        },
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "approve"
+        }
+      ],
+      "labels": {
+        "family": "Royal family",
+        "hos": "King",
+        "hog": "Prime Minister",
+        "upper": "Senate",
+        "lower": "House of Deputies"
+      },
+      "runs": "hos",
+      "electoral": {
+        "kind": "parallel",
+        "threshold": null,
+        "age": 18,
+        "compulsory": false,
+        "term": 4
+      },
+      "timeline": [
+        {
+          "y": 1921,
+          "t": "Britain sets up Emirate of Transjordan",
+          "k": "monarchy"
+        },
+        {
+          "y": 1946,
+          "t": "Independence as a kingdom",
+          "k": "independence"
+        },
+        {
+          "y": 1952,
+          "t": "Constitution adopted",
+          "k": "constitution"
+        }
+      ]
+    }
+  },
+  "SAU": {
+    "gov": "An absolute monarchy. The king holds all final power, with no parliament able to overrule him, and the crown prince runs much of the government day to day. Islamic law forms the basis of the legal system.",
+    "vote": "There's no national vote and political parties are banned. Local council elections were introduced in 2005 and women first took part in 2015, but those councils have limited powers.",
+    "history": "Ibn Saud united the kingdom in 1932, in alliance with a strict religious movement. Oil made it one of the world's richest countries. Recent reforms have loosened some social rules, while critics say political dissent is harshly punished.",
+    "facts": {
+      "power": [
+        {
+          "a": "family",
+          "b": "hos",
+          "v": "inherit"
+        },
+        {
+          "a": "hos",
+          "b": "hog",
+          "v": "appoint"
+        }
+      ],
+      "labels": {
+        "family": "Royal family",
+        "hos": "King",
+        "hog": "Crown Prince"
+      },
+      "runs": "hos",
+      "electoral": {
+        "kind": "none",
+        "threshold": null,
+        "age": null,
+        "compulsory": false,
+        "term": null
+      },
+      "timeline": [
+        {
+          "y": 1932,
+          "t": "Ibn Saud founds the Kingdom of Saudi Arabia",
+          "k": "monarchy"
+        },
+        {
+          "y": 1992,
+          "t": "Basic Law issued by the king",
+          "k": "constitution"
+        },
+        {
+          "y": 2005,
+          "t": "First local council elections",
+          "k": "reform"
+        },
+        {
+          "y": 2015,
+          "t": "Women vote and stand in local elections",
+          "k": "suffrage"
+        }
+      ]
+    }
+  },
+  "KWT": {
+    "gov": "The emir holds ultimate power. Kuwait long had the Gulf's most independent elected parliament, but the emir suspended it in 2024 for up to four years, and took over its powers.",
+    "vote": "Until parliament was suspended, citizens elected 50 lawmakers, though parties aren't legally allowed. Only citizens could vote, and they're a minority of the people who live there.",
+    "history": "Ruled by the Al Sabah family since the 1700s, Kuwait became independent from Britain in 1961. Iraq invaded in 1990, and a US-led coalition expelled it in 1991.",
+    "facts": {
+      "power": [
+        {
+          "a": "family",
+          "b": "hos",
+          "v": "inherit"
+        },
+        {
+          "a": "hos",
+          "b": "hog",
+          "v": "appoint"
+        },
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        }
+      ],
+      "labels": {
+        "family": "Al Sabah family",
+        "hos": "Emir",
+        "hog": "Prime Minister",
+        "lower": "National Assembly"
+      },
+      "runs": "hos",
+      "electoral": {
+        "kind": "other",
+        "threshold": null,
+        "age": 21,
+        "compulsory": false,
+        "term": 4
+      },
+      "timeline": [
+        {
+          "y": 1961,
+          "t": "Independence from Britain",
+          "k": "independence"
+        },
+        {
+          "y": 1962,
+          "t": "Constitution creates an elected assembly",
+          "k": "constitution"
+        },
+        {
+          "y": 1990,
+          "t": "Iraq invades; expelled in 1991",
+          "k": "reform"
+        },
+        {
+          "y": 2024,
+          "t": "Emir suspends parliament",
+          "k": "reform"
+        }
+      ]
+    }
+  },
+  "BHR": {
+    "gov": "The king holds most power and appoints the upper house and the government. Voters elect a lower house with limited authority.",
+    "vote": "Citizens elect the lower house, but major opposition groups have been banned or shut down since the protests of 2011.",
+    "history": "The Sunni Al Khalifa family has ruled this majority-Shia island since the 1700s. It became independent from Britain in 1971. Democracy protests in 2011 were put down with help from Saudi-led Gulf troops.",
+    "facts": {
+      "power": [
+        {
+          "a": "family",
+          "b": "hos",
+          "v": "inherit"
+        },
+        {
+          "a": "hos",
+          "b": "hog",
+          "v": "appoint"
+        },
+        {
+          "a": "hos",
+          "b": "upper",
+          "v": "appoint"
+        },
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        }
+      ],
+      "labels": {
+        "family": "Al Khalifa family",
+        "hos": "King",
+        "hog": "Prime Minister",
+        "upper": "Shura Council",
+        "lower": "Council of Reps."
+      },
+      "runs": "hos",
+      "electoral": {
+        "kind": "two-round",
+        "threshold": null,
+        "age": null,
+        "compulsory": false,
+        "term": 4
+      },
+      "timeline": [
+        {
+          "y": 1971,
+          "t": "Independence from Britain",
+          "k": "independence"
+        },
+        {
+          "y": 2002,
+          "t": "Kingdom declared; elected lower house returns",
+          "k": "reform"
+        },
+        {
+          "y": 2011,
+          "t": "Protests are put down",
+          "k": "revolution"
+        }
+      ]
+    }
+  },
+  "QAT": {
+    "gov": "The emir, from the Al Thani family, holds all final power. An advisory council assists him. Political parties aren't allowed.",
+    "vote": "A first council election took place in 2021. But in a 2024 vote, citizens agreed to end those elections and go back to an appointed council. Most people living here are foreign workers with no vote.",
+    "history": "Independent from Britain in 1971, Qatar became one of the world's richest countries per person from natural gas. It hosted the 2022 World Cup.",
+    "facts": {
+      "power": [
+        {
+          "a": "family",
+          "b": "hos",
+          "v": "inherit"
+        },
+        {
+          "a": "hos",
+          "b": "hog",
+          "v": "appoint"
+        },
+        {
+          "a": "hos",
+          "b": "lower",
+          "v": "appoint"
+        }
+      ],
+      "labels": {
+        "family": "Al Thani family",
+        "hos": "Emir",
+        "hog": "Prime Minister",
+        "lower": "Shura Council"
+      },
+      "runs": "hos",
+      "electoral": {
+        "kind": "none",
+        "threshold": null,
+        "age": null,
+        "compulsory": false,
+        "term": null
+      },
+      "timeline": [
+        {
+          "y": 1971,
+          "t": "Independence from Britain",
+          "k": "independence"
+        },
+        {
+          "y": 2021,
+          "t": "First and only Shura Council election",
+          "k": "reform"
+        },
+        {
+          "y": 2024,
+          "t": "Referendum ends council elections",
+          "k": "reform"
+        }
+      ]
+    }
+  },
+  "ARE": {
+    "gov": "Seven emirates, each ruled by its own family, form one country. By tradition, the ruler of Abu Dhabi is president and the ruler of Dubai is prime minister.",
+    "vote": "No parties are allowed. A limited group of citizens, chosen by the rulers, votes for half of an advisory council, and the other half is appointed. Most residents are foreign workers without any vote.",
+    "history": "These sheikhdoms were under British protection until they joined together in 1971. Oil and trade turned them into a global hub within a few decades.",
+    "facts": {
+      "power": [
+        {
+          "a": "family",
+          "b": "hos",
+          "v": "choose"
+        },
+        {
+          "a": "hos",
+          "b": "hog",
+          "v": "appoint"
+        },
+        {
+          "a": "electors",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "family",
+          "b": "lower",
+          "v": "appoint"
+        }
+      ],
+      "labels": {
+        "family": "Council of the 7 rulers",
+        "hos": "President",
+        "hog": "Prime Minister",
+        "electors": "Chosen voters",
+        "lower": "Federal National Council"
+      },
+      "runs": "family",
+      "electoral": {
+        "kind": "indirect",
+        "threshold": null,
+        "age": null,
+        "compulsory": false,
+        "term": 4
+      },
+      "timeline": [
+        {
+          "y": 1971,
+          "t": "Seven emirates unite as one federation",
+          "k": "union"
+        },
+        {
+          "y": 2006,
+          "t": "First partial vote for advisory council",
+          "k": "reform"
+        },
+        {
+          "y": 2023,
+          "t": "Latest council vote, by chosen citizens",
+          "k": "reform"
+        }
+      ]
+    }
+  },
+  "OMN": {
+    "gov": "The sultan holds all final power, serving as head of state, prime minister and commander of the armed forces. An elected council only advises.",
+    "vote": "Citizens elect one part of a council that gives advice. It can't overrule the sultan, and parties aren't allowed.",
+    "history": "Oman was once a trading empire that reached East Africa. Sultan Qaboos, who ruled from 1970 to 2020, opened it up and modernized it. It's known for quietly helping rivals in the region talk.",
+    "facts": {
+      "power": [
+        {
+          "a": "family",
+          "b": "hos",
+          "v": "inherit"
+        },
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        }
+      ],
+      "labels": {
+        "family": "Royal family",
+        "hos": "Sultan",
+        "lower": "Shura Council"
+      },
+      "runs": "hos",
+      "electoral": {
+        "kind": "other",
+        "threshold": null,
+        "age": null,
+        "compulsory": false,
+        "term": 4
+      },
+      "timeline": [
+        {
+          "y": 1970,
+          "t": "Qaboos takes the throne and modernizes",
+          "k": "monarchy"
+        },
+        {
+          "y": 1996,
+          "t": "Basic Law issued",
+          "k": "constitution"
+        },
+        {
+          "y": 2020,
+          "t": "Haitham becomes sultan",
+          "k": "monarchy"
+        }
+      ]
+    }
+  },
+  "YEM": {
+    "gov": "War has split Yemen. The Houthi movement holds the capital and much of the north. A government recognized around the world holds other areas, along with southern separatists. The balance keeps shifting, so details may be out of date.",
+    "vote": "The last vote for president was in 2012, with one candidate. The last election for parliament was in 2003. War has made national elections impossible.",
+    "history": "North and South Yemen united in 1990. Protests in 2011 pushed out longtime leader Ali Abdullah Saleh. The Houthis seized the capital in 2014, and a Saudi-led coalition intervened in 2015. The war has caused one of the world's worst humanitarian crises.",
+    "facts": {
+      "power": [],
+      "labels": {},
+      "runs": null,
+      "electoral": {
+        "kind": "none",
+        "threshold": null,
+        "age": null,
+        "compulsory": false,
+        "term": null
+      },
+      "timeline": [
+        {
+          "y": 1990,
+          "t": "North and South Yemen unite",
+          "k": "union"
+        },
+        {
+          "y": 2011,
+          "t": "Protests against the long-time president",
+          "k": "revolution"
+        },
+        {
+          "y": 2014,
+          "t": "Houthis seize the capital",
+          "k": "coup"
+        },
+        {
+          "y": 2022,
+          "t": "Presidential Leadership Council formed",
+          "k": "reform"
+        }
+      ]
+    }
+  },
+  "TUR": {
+    "gov": "A president, elected by voters, leads both the state and the government. A close vote adopted this system in 2017. There's no longer a prime minister, and the president's powers are broad.",
+    "vote": "The president needs a majority, or there's a runoff. Parties share out seats in parliament by their votes. Elections are real contests, but some researchers rate Turkey an 'electoral autocracy', citing jailed opponents and tilted media, which the government rejects. Istanbul's opposition mayor was jailed in 2025.",
+    "history": "Mustafa Kemal Atatürk founded the secular republic in 1923, from the ruins of the Ottoman Empire. The army staged several coups, saying it was protecting the secular republic. Recep Tayyip Erdoğan's party took power in 2002. A failed coup in 2016 led to mass firings and arrests, which the government says targeted those behind the coup.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "hog",
+          "v": "elect"
+        },
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        }
+      ],
+      "labels": {
+        "lower": "Grand National Assembly",
+        "hog": "President"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "list-pr",
+        "threshold": 7,
+        "age": 18,
+        "compulsory": null,
+        "term": 5
+      },
+      "timeline": [
+        {
+          "y": 1923,
+          "t": "Republic founded after the Ottoman Empire",
+          "k": "revolution"
+        },
+        {
+          "y": 1950,
+          "t": "First free multi-party election won by opposition",
+          "k": "democracy"
+        },
+        {
+          "y": 1982,
+          "t": "Current constitution adopted after a coup",
+          "k": "constitution"
+        },
+        {
+          "y": 2017,
+          "t": "Referendum approves a presidential system",
+          "k": "reform"
+        }
+      ]
+    }
+  },
+  "GEO": {
+    "gov": "Voters elect a parliament, and the prime minister runs the government. A president, whose job is mostly for show, is now picked by a special group rather than by the public.",
+    "vote": "Seats are shared by party vote share, with a 5% minimum. The opposition and many observers rejected the 2024 results, alleging fraud and pressure, while the government says the vote was fair. Months of protests followed after the government paused talks on joining the European Union.",
+    "history": "Georgia broke from the Soviet Union in 1991. The peaceful Rose Revolution of 2003 removed the old leaders. After a short war with Russia in 2008, two regions, Abkhazia and South Ossetia, came under Russian-backed control. Georgia and most countries see them as Georgian land, while Russia recognizes them as independent.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "choose"
+        },
+        {
+          "a": "electors",
+          "b": "hos",
+          "v": "elect"
+        }
+      ],
+      "labels": {
+        "lower": "Parliament",
+        "hog": "Prime Minister",
+        "hos": "President",
+        "electors": "Electoral college"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "list-pr",
+        "threshold": 5,
+        "age": 18,
+        "compulsory": false,
+        "term": 4
+      },
+      "timeline": [
+        {
+          "y": 1991,
+          "t": "Independence from the Soviet Union",
+          "k": "independence"
+        },
+        {
+          "y": 2003,
+          "t": "Rose Revolution ousts the old leadership",
+          "k": "revolution"
+        },
+        {
+          "y": 2008,
+          "t": "War with Russia; two regions break away",
+          "k": "split"
+        },
+        {
+          "y": 2017,
+          "t": "Constitution changed; president chosen by college",
+          "k": "constitution"
+        }
+      ]
+    }
+  },
+  "ARM": {
+    "gov": "Voters elect a parliament, and the prime minister runs the government. Since a change in 2018, a president picked by parliament has a job that's mostly for show.",
+    "vote": "Parties share out seats by their votes, with rules that guarantee a stable majority and seats for minorities. The governing Civil Contract party was reported to have won the June 2026 election.",
+    "history": "Armenia is said by tradition to be the first state to adopt Christianity, in 301. Armenia and many historians and countries call the mass killings of Armenians under the Ottoman Empire from 1915 a genocide, which Turkey rejects. It broke from the Soviets in 1991 and fought wars with Azerbaijan over Nagorno-Karabakh. In 2023 Azerbaijan took full control, and almost all of the region's Armenians left. The 2018 Velvet Revolution brought today's leaders.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "choose"
+        },
+        {
+          "a": "lower",
+          "b": "hos",
+          "v": "elect"
+        }
+      ],
+      "labels": {
+        "lower": "National Assembly",
+        "hog": "Prime Minister",
+        "hos": "President"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "list-pr",
+        "threshold": null,
+        "age": 18,
+        "compulsory": false,
+        "term": 5
+      },
+      "timeline": [
+        {
+          "y": 1991,
+          "t": "Independence from the Soviet Union",
+          "k": "independence"
+        },
+        {
+          "y": 2015,
+          "t": "Referendum moves to a parliamentary system",
+          "k": "constitution"
+        },
+        {
+          "y": 2018,
+          "t": "Velvet Revolution brings new leadership",
+          "k": "revolution"
+        }
+      ]
+    }
+  },
+  "AZE": {
+    "gov": "A strong president dominates. Ilham Aliyev took over from his father in 2003, and term limits have been removed. His wife is the vice president.",
+    "vote": "Elections are held, but international observers say they don't meet democratic standards, and the main opposition parties have refused to take part. Critics say journalists and opponents are often jailed, which the government denies.",
+    "history": "Azerbaijan broke from the Soviet Union in 1991 and grew rich from Caspian oil and gas. It took back much of Nagorno-Karabakh in 2020 and the rest in 2023.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "hos",
+          "v": "elect"
+        },
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "hos",
+          "b": "hog",
+          "v": "appoint"
+        }
+      ],
+      "labels": {
+        "lower": "National Assembly",
+        "hos": "President",
+        "hog": "Prime Minister"
+      },
+      "runs": "hos",
+      "electoral": {
+        "kind": "fptp",
+        "threshold": null,
+        "age": 18,
+        "compulsory": false,
+        "term": 5
+      },
+      "timeline": [
+        {
+          "y": 1991,
+          "t": "Independence from the Soviet Union",
+          "k": "independence"
+        },
+        {
+          "y": 2003,
+          "t": "Son succeeds father as president",
+          "k": "reform"
+        },
+        {
+          "y": 2016,
+          "t": "Referendum removes presidential term limits",
+          "k": "reform"
+        }
+      ]
+    }
+  },
+  "KAZ": {
+    "gov": "A strong president is in charge, under a system built around Nursultan Nazarbayev, who led from independence until 2019. Presidents now get one seven-year term.",
+    "vote": "Elections are held, but real opposition parties have struggled to register, and observers say there hasn't been true competition.",
+    "history": "Kazakhstan broke from the Soviet Union in 1991. Deadly unrest in January 2022 shook the system and cut Nazarbayev's influence, under the man who followed him, Kassym-Jomart Tokayev."
+  },
+  "UZB": {
+    "gov": "A strong president is in charge. Observers say all legal parties support the government and there's no real opposition.",
+    "vote": "Elections are held with several parties, but observers report no real competition. A 2023 vote approved a new constitution. Critics say it restarts the count of the president's terms, so he can stay longer.",
+    "history": "Islam Karimov ruled from independence in 1991 until he died in 2016, and rights groups say his record was harsh. The next president, Shavkat Mirziyoyev, has eased some limits and opened up the economy.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "hog",
+          "v": "elect"
+        },
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "regions",
+          "b": "upper",
+          "v": "choose"
+        },
+        {
+          "a": "hog",
+          "b": "upper",
+          "v": "appoint"
+        }
+      ],
+      "labels": {
+        "lower": "Legislative Chamber",
+        "upper": "Senate",
+        "hog": "President",
+        "regions": "Regional councils"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "other",
+        "threshold": null,
+        "age": 18,
+        "compulsory": false,
+        "term": 5
+      },
+      "timeline": [
+        {
+          "y": 1991,
+          "t": "Independence from the Soviet Union",
+          "k": "independence"
+        },
+        {
+          "y": 2005,
+          "t": "Parliament gets a second chamber",
+          "k": "reform"
+        },
+        {
+          "y": 2016,
+          "t": "Karimov dies; new president takes over",
+          "k": "reform"
+        },
+        {
+          "y": 2023,
+          "t": "Referendum approves a new constitution",
+          "k": "constitution"
+        }
+      ]
+    }
+  },
+  "KGZ": {
+    "gov": "A president holds strong powers, after a 2021 change moved power away from parliament.",
+    "vote": "Voters elect 90 lawmakers in three-seat districts, with one vote each. Kyrgyzstan was once the most open country in Central Asia, with real contests. Rights groups say the media and opposition have come under pressure in recent years.",
+    "history": "Since independence in 1991, uprisings have brought down its presidents three times, in 2005, 2010 and 2020. That earned it a name for people power.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "hog",
+          "v": "elect"
+        },
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        }
+      ],
+      "labels": {
+        "lower": "Supreme Council",
+        "hog": "President"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "other",
+        "threshold": null,
+        "age": 18,
+        "compulsory": false,
+        "term": 5
+      },
+      "timeline": [
+        {
+          "y": 1991,
+          "t": "Independence from the Soviet Union",
+          "k": "independence"
+        },
+        {
+          "y": 2005,
+          "t": "Uprising topples the president",
+          "k": "revolution"
+        },
+        {
+          "y": 2010,
+          "t": "Second uprising; parliamentary system adopted",
+          "k": "revolution"
+        },
+        {
+          "y": 2021,
+          "t": "Constitution shifts power back to the president",
+          "k": "constitution"
+        }
+      ]
+    }
+  },
+  "TJK": {
+    "gov": "Emomali Rahmon has ruled since 1992, and he's been given the title 'Leader of the Nation', with no limit on his terms. His son leads the upper house and is widely seen as a successor.",
+    "vote": "Elections are held, but observers say they aren't real contests. The main Islamic opposition party was banned in 2015.",
+    "history": "After independence from the Soviets in 1991, Tajikistan fell into a civil war from 1992 to 1997, which ended with a peace deal. Rahmon has since built a tightly controlled state, according to critics.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "hog",
+          "v": "elect"
+        },
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        }
+      ],
+      "labels": {
+        "lower": "Assembly of Reps.",
+        "hog": "President"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "parallel",
+        "threshold": null,
+        "age": 18,
+        "compulsory": false,
+        "term": 5
+      },
+      "timeline": [
+        {
+          "y": 1991,
+          "t": "Independence from the Soviet Union",
+          "k": "independence"
+        },
+        {
+          "y": 1992,
+          "t": "Civil war begins; ends with 1997 peace deal",
+          "k": "split"
+        },
+        {
+          "y": 2015,
+          "t": "Main Islamic opposition party banned",
+          "k": "reform"
+        },
+        {
+          "y": 2016,
+          "t": "Referendum removes limits on Rahmon's terms",
+          "k": "reform"
+        }
+      ]
+    }
+  },
+  "TKM": {
+    "gov": "It's among the world's most closed countries. Power runs through one family. Serdar Berdimuhamedov became president in 2022, after his father, who still has huge influence.",
+    "vote": "Elections are held, but outcomes aren't in doubt, with winners often taking over 70 to 90 percent. There's no real opposition, and little outside access.",
+    "history": "After independence in 1991, Saparmurat Niyazov had himself treated like a god, and even renamed months after himself and his mother. He died in 2006, and little changed.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "hog",
+          "v": "elect"
+        },
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "family",
+          "b": "hog",
+          "v": "advise"
+        }
+      ],
+      "labels": {
+        "lower": "Mejlis (parliament)",
+        "hog": "President",
+        "family": "Berdimuhamedow family"
+      },
+      "runs": "family",
+      "electoral": {
+        "kind": "fptp",
+        "threshold": null,
+        "age": 18,
+        "compulsory": false,
+        "term": 5
+      },
+      "timeline": [
+        {
+          "y": 1991,
+          "t": "Independence from the Soviet Union",
+          "k": "independence"
+        },
+        {
+          "y": 2006,
+          "t": "Niyazov dies; successor takes over",
+          "k": "reform"
+        },
+        {
+          "y": 2022,
+          "t": "Son succeeds father as president",
+          "k": "reform"
+        },
+        {
+          "y": 2023,
+          "t": "Father becomes 'National Leader' with top authority",
+          "k": "constitution"
+        }
+      ]
+    }
+  },
+  "MNG": {
+    "gov": "Voters elect a parliament, and the prime minister runs the government. A president, also elected by voters, can block some laws and has limited duties.",
+    "vote": "A mixed system: some members win in local districts, and others by party vote share. Women make up a growing share under quota rules.",
+    "history": "Mongolia was once the center of Genghis Khan's empire. It became the world's second communist state in 1924, under Soviet influence. A peaceful revolution in 1990 made it a rare democracy between Russia and China.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "voters",
+          "b": "hos",
+          "v": "elect"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "choose"
+        }
+      ],
+      "labels": {
+        "lower": "State Great Khural",
+        "hos": "President",
+        "hog": "Prime Minister"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "parallel",
+        "threshold": null,
+        "age": 18,
+        "compulsory": false,
+        "term": 4
+      },
+      "timeline": [
+        {
+          "y": 1924,
+          "t": "Communist people's republic proclaimed",
+          "k": "revolution"
+        },
+        {
+          "y": 1990,
+          "t": "Peaceful revolution ends one-party rule",
+          "k": "democracy"
+        },
+        {
+          "y": 1992,
+          "t": "New democratic constitution",
+          "k": "constitution"
+        }
+      ]
+    }
+  },
+  "PRK": {
+    "gov": "The Kim family has ruled since the country began, across three generations. Kim Jong Un leads the Workers' Party, the government and the army with total power.",
+    "vote": "Citizens must vote, but each ballot usually has only one approved name, and voting against it is close to impossible. Officials report that nearly 100 percent vote and approve.",
+    "history": "Korea was split after World War II. Kim Il Sung's North invaded the South in 1950, leading to a war that ended without a peace treaty. The country became deeply isolated, suffered a terrible famine in the 1990s, and built nuclear weapons.",
+    "facts": {
+      "power": [
+        {
+          "a": "party",
+          "b": "lower",
+          "v": "choose"
+        },
+        {
+          "a": "lower",
+          "b": "hos",
+          "v": "elect"
+        }
+      ],
+      "labels": {
+        "party": "Workers' Party",
+        "lower": "Supreme People's Assembly",
+        "hos": "State Affairs President"
+      },
+      "runs": "party",
+      "electoral": {
+        "kind": "other",
+        "threshold": null,
+        "age": null,
+        "compulsory": true,
+        "term": 5
+      },
+      "timeline": [
+        {
+          "y": 1945,
+          "t": "Korea divided after World War II",
+          "k": "split"
+        },
+        {
+          "y": 1948,
+          "t": "North Korea founded under Kim Il Sung",
+          "k": "independence"
+        },
+        {
+          "y": 1950,
+          "t": "Korean War begins",
+          "k": "split"
+        },
+        {
+          "y": 1994,
+          "t": "Power passes from father to son",
+          "k": "reform"
+        }
+      ]
+    }
+  },
+  "KOR": {
+    "gov": "A president, elected by voters, runs the government for one five-year term and can never run again. The National Assembly passes laws and can remove the president.",
+    "vote": "The president wins with the most votes, with no runoff. The Assembly uses a mix of local winners and party-share seats. In December 2024, the president declared martial law, and lawmakers voted it down within hours. He was then removed from office, and a new president was elected in 2025.",
+    "history": "After the Korean War, a series of harsh leaders ruled the South, even as its economy boomed. Mass protests in 1987 won the right to vote directly for president. It became one of Asia's strongest democracies.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "hog",
+          "v": "elect"
+        },
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        }
+      ],
+      "labels": {
+        "lower": "National Assembly",
+        "hog": "President"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "parallel",
+        "threshold": 3,
+        "age": 18,
+        "compulsory": false,
+        "term": 4
+      },
+      "timeline": [
+        {
+          "y": 1948,
+          "t": "Republic of Korea founded",
+          "k": "independence"
+        },
+        {
+          "y": 1961,
+          "t": "Military coup begins decades of strongman rule",
+          "k": "coup"
+        },
+        {
+          "y": 1987,
+          "t": "Protests win direct presidential elections",
+          "k": "democracy"
+        },
+        {
+          "y": 2024,
+          "t": "Martial law attempt fails; president removed in 2025",
+          "k": "reform"
+        }
+      ]
+    }
+  },
+  "TWN": {
+    "gov": "Voters elect a president and a lawmaking body with one chamber. Taiwan runs itself, but its status is disputed. Its government says it's a sovereign state, officially called the Republic of China, while Beijing says Taiwan is part of China. Only about a dozen countries formally recognize it as a state.",
+    "vote": "The president wins with the most votes, with no runoff. Lawmakers come from a mix of local winners and party-share seats. People here can also vote in national referendums.",
+    "history": "Japan ruled Taiwan from 1895 to 1945, after which the Republic of China took over. After losing China's civil war, the Nationalists fled to Taiwan in 1949, and ruled under martial law until 1987. The first direct presidential election was held in 1996. How to handle relations with China is its central political question.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "hos",
+          "v": "elect"
+        },
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "hos",
+          "b": "hog",
+          "v": "appoint"
+        }
+      ],
+      "labels": {
+        "lower": "Legislative Yuan",
+        "hos": "President",
+        "hog": "Premier"
+      },
+      "runs": "hos",
+      "electoral": {
+        "kind": "parallel",
+        "threshold": 5,
+        "age": 20,
+        "compulsory": false,
+        "term": 4
+      },
+      "timeline": [
+        {
+          "y": 1912,
+          "t": "Republic of China founded on the mainland",
+          "k": "revolution"
+        },
+        {
+          "y": 1949,
+          "t": "Nationalist government relocates to Taiwan",
+          "k": "split"
+        },
+        {
+          "y": 1987,
+          "t": "Martial law ends",
+          "k": "democracy"
+        },
+        {
+          "y": 1996,
+          "t": "First direct presidential election",
+          "k": "democracy"
+        }
+      ]
+    }
+  },
+  "VNM": {
+    "gov": "The Communist Party is the only legal party and leads the state. Its General Secretary is the most powerful person. A president and a prime minister lead the government.",
+    "vote": "People vote for the National Assembly, but a party-led body approves almost all candidates, so there's no real contest for power.",
+    "history": "Vietnam fought off France and then the United States, in a war that ended in 1975 with the country unified under the communist North. Market reforms from 1986, known as Doi Moi, sparked rapid growth.",
+    "facts": {
+      "power": [
+        {
+          "a": "party",
+          "b": "lower",
+          "v": "choose"
+        },
+        {
+          "a": "lower",
+          "b": "hos",
+          "v": "elect"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "elect"
+        }
+      ],
+      "labels": {
+        "party": "Communist Party",
+        "lower": "National Assembly",
+        "hos": "President",
+        "hog": "Prime Minister"
+      },
+      "runs": "party",
+      "electoral": {
+        "kind": "block",
+        "threshold": null,
+        "age": 18,
+        "compulsory": false,
+        "term": 5
+      },
+      "timeline": [
+        {
+          "y": 1945,
+          "t": "Independence declared from France",
+          "k": "independence"
+        },
+        {
+          "y": 1954,
+          "t": "Country divided into North and South",
+          "k": "split"
+        },
+        {
+          "y": 1976,
+          "t": "North and South unified as one state",
+          "k": "union"
+        },
+        {
+          "y": 1986,
+          "t": "Doi Moi market reforms begin",
+          "k": "reform"
+        }
+      ]
+    }
+  },
+  "LAO": {
+    "gov": "One party, the Lao People's Revolutionary Party, holds all power. No other parties are allowed.",
+    "vote": "People vote for the National Assembly, but almost all candidates belong to or are approved by the ruling party.",
+    "history": "Laos was once French land. It became a communist state in 1975, ending its monarchy, after a long civil war linked to the Vietnam War.",
+    "facts": {
+      "power": [
+        {
+          "a": "party",
+          "b": "lower",
+          "v": "choose"
+        },
+        {
+          "a": "lower",
+          "b": "hos",
+          "v": "elect"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "approve"
+        }
+      ],
+      "labels": {
+        "party": "People's Revolutionary Par",
+        "lower": "National Assembly",
+        "hos": "President",
+        "hog": "Prime Minister"
+      },
+      "runs": "party",
+      "electoral": {
+        "kind": "block",
+        "threshold": null,
+        "age": 18,
+        "compulsory": false,
+        "term": 5
+      },
+      "timeline": [
+        {
+          "y": 1953,
+          "t": "Independence from France",
+          "k": "independence"
+        },
+        {
+          "y": 1975,
+          "t": "Communists take power; monarchy ends",
+          "k": "revolution"
+        },
+        {
+          "y": 1991,
+          "t": "First constitution of the one-party state",
+          "k": "constitution"
+        }
+      ]
+    }
+  },
+  "KHM": {
+    "gov": "A king is ceremonial head of state, and a prime minister runs the government. In practice, one party has dominated for decades, and power passed from Hun Sen to his son Hun Manet in 2023.",
+    "vote": "Parties share out seats by their votes, but the main opposition party was shut down in 2017, and another was barred before the 2023 vote.",
+    "history": "The Khmer Rouge, a communist movement, took power in 1975 and ruled brutally. Vietnam ousted them in 1979. UN-run elections in 1993 restored the monarchy, but Hun Sen kept hold of power for nearly 40 years.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "approve"
+        },
+        {
+          "a": "hos",
+          "b": "hog",
+          "v": "appoint"
+        },
+        {
+          "a": "electors",
+          "b": "hos",
+          "v": "choose"
+        }
+      ],
+      "labels": {
+        "lower": "National Assembly",
+        "hog": "Prime Minister",
+        "hos": "King",
+        "electors": "Royal Throne Council"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "list-pr",
+        "threshold": null,
+        "age": 18,
+        "compulsory": false,
+        "term": 5
+      },
+      "timeline": [
+        {
+          "y": 1953,
+          "t": "Independence from France",
+          "k": "independence"
+        },
+        {
+          "y": 1975,
+          "t": "Khmer Rouge take power",
+          "k": "revolution"
+        },
+        {
+          "y": 1979,
+          "t": "Vietnam ousts the Khmer Rouge",
+          "k": "coup"
+        },
+        {
+          "y": 1993,
+          "t": "UN-run elections; monarchy restored",
+          "k": "democracy"
+        }
+      ]
+    }
+  },
+  "THA": {
+    "gov": "A king is head of state and is treated with deep respect, with strict laws against criticizing him. Voters elect a parliament, which chooses the prime minister. But courts and the army have stepped in again and again, removing governments and banning parties.",
+    "vote": "Voters choose both a local candidate and a party. In 2023, a reformist party won the most seats but was blocked from governing, and a court later dissolved it. The February 2026 election was won by a conservative party, Bhumjaithai.",
+    "history": "Thailand was never a colony. A 1932 revolution ended rule by kings with total power. The army has staged about a dozen successful coups since. The latest was in 2014, followed by a constitution written under the army.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "choose"
+        },
+        {
+          "a": "family",
+          "b": "hos",
+          "v": "inherit"
+        }
+      ],
+      "labels": {
+        "lower": "House of Reps.",
+        "hog": "Prime Minister",
+        "hos": "King",
+        "family": "Royal family"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "parallel",
+        "threshold": null,
+        "age": 18,
+        "compulsory": true,
+        "term": 4
+      },
+      "timeline": [
+        {
+          "y": 1932,
+          "t": "Revolution ends absolute monarchy",
+          "k": "revolution"
+        },
+        {
+          "y": 2014,
+          "t": "Army seizes power in a coup",
+          "k": "coup"
+        },
+        {
+          "y": 2017,
+          "t": "Military-drafted constitution adopted",
+          "k": "constitution"
+        },
+        {
+          "y": 2023,
+          "t": "Reformist party wins most seats but is blocked",
+          "k": "democracy"
+        }
+      ]
+    }
+  },
+  "MMR": {
+    "gov": "The military seized power in a February 2021 coup, jailing elected leader Aung San Suu Kyi. Fighting against armed resistance groups continues across much of the country.",
+    "vote": "The junta held a phased election from December 2025 into 2026, but major parties were dissolved and many areas couldn't vote. Many governments and observers rejected it as a sham.",
+    "history": "Independent from Britain in 1948, Burma fell to army rule from 1962. A partial opening after 2011 let Suu Kyi's party win a landslide in 2015. The 2017 military campaign against Rohingya Muslims drove hundreds of thousands out of the country."
+  },
+  "MYS": {
+    "gov": "Voters elect a parliament, and the prime minister runs the government. It has an unusual monarchy: nine state sultans take turns as king, for five years each. It's also a federal country.",
+    "vote": "Whoever gets the most votes in each area wins. Rural seats tend to have fewer voters than urban ones. Politics is shaped strongly by race and religion.",
+    "history": "Independent from Britain in 1957, Malaysia was governed by one coalition for 61 years, until voters ended that run in 2018. Governments have shifted several times since.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "hos",
+          "b": "hog",
+          "v": "appoint"
+        },
+        {
+          "a": "electors",
+          "b": "hos",
+          "v": "elect"
+        }
+      ],
+      "labels": {
+        "lower": "Dewan Rakyat",
+        "hos": "Agong (king)",
+        "hog": "Prime Minister",
+        "electors": "Conference of Rulers"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "fptp",
+        "threshold": null,
+        "age": 18,
+        "compulsory": false,
+        "term": 5
+      },
+      "timeline": [
+        {
+          "y": 1957,
+          "t": "Independence from Britain",
+          "k": "independence"
+        },
+        {
+          "y": 1963,
+          "t": "Malaysia formed with Sabah, Sarawak, Singapore",
+          "k": "union"
+        },
+        {
+          "y": 1965,
+          "t": "Singapore leaves the federation",
+          "k": "split"
+        },
+        {
+          "y": 2018,
+          "t": "Ruling coalition loses for the first time",
+          "k": "democracy"
+        }
+      ]
+    }
+  },
+  "SGP": {
+    "gov": "Voters elect a parliament, and the prime minister runs the government. A president, also elected by voters, has limited powers. One party, the PAP, has won every election since independence.",
+    "vote": "Everyone must vote, and many areas elect a team of candidates together, including at least one from a minority group. Counting is widely seen as orderly. Critics point to strict rules on media and protests, and to district lines that help the governing party. The government rejects this.",
+    "history": "Singapore was a British colony that joined Malaysia in 1963 and left in 1965, when Malaysia's parliament voted to separate it. Under Lee Kuan Yew, it grew from a poor port into one of the world's richest countries.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "voters",
+          "b": "hos",
+          "v": "elect"
+        },
+        {
+          "a": "hos",
+          "b": "hog",
+          "v": "appoint"
+        }
+      ],
+      "labels": {
+        "lower": "Parliament",
+        "hos": "President",
+        "hog": "Prime Minister"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "block",
+        "threshold": null,
+        "age": 21,
+        "compulsory": true,
+        "term": 5
+      },
+      "timeline": [
+        {
+          "y": 1959,
+          "t": "Self-government from Britain",
+          "k": "independence"
+        },
+        {
+          "y": 1963,
+          "t": "Joins Malaysia",
+          "k": "union"
+        },
+        {
+          "y": 1965,
+          "t": "Leaves Malaysia; becomes independent",
+          "k": "split"
+        },
+        {
+          "y": 1991,
+          "t": "President becomes directly elected",
+          "k": "reform"
+        }
+      ]
+    }
+  },
+  "BRN": {
+    "gov": "The sultan holds absolute power, serving as both head of state and prime minister. Islamic law plays a large part in its legal system.",
+    "vote": "There are no national elections, and there haven't been since 1962. That year an opposition party won every elected seat, a revolt broke out, and British help put it down. Emergency rule followed.",
+    "history": "Once a major regional power, Brunei became a British protectorate. Independent since 1984, it's wealthy from oil and gas.",
+    "facts": {
+      "power": [
+        {
+          "a": "family",
+          "b": "hos",
+          "v": "inherit"
+        },
+        {
+          "a": "hos",
+          "b": "lower",
+          "v": "appoint"
+        }
+      ],
+      "labels": {
+        "family": "Royal family",
+        "hos": "Sultan",
+        "lower": "Legislative Council"
+      },
+      "runs": "hos",
+      "electoral": {
+        "kind": "none",
+        "threshold": null,
+        "age": null,
+        "compulsory": false,
+        "term": null
+      },
+      "timeline": [
+        {
+          "y": 1888,
+          "t": "Becomes a British protectorate",
+          "k": "monarchy"
+        },
+        {
+          "y": 1962,
+          "t": "Opposition wins vote; revolt; emergency rule",
+          "k": "coup"
+        },
+        {
+          "y": 1984,
+          "t": "Independence from Britain",
+          "k": "independence"
+        }
+      ]
+    }
+  },
+  "PHL": {
+    "gov": "Voters elect a president, who runs the government for one six-year term. Congress has a Senate, elected nationwide, and a House of Representatives. Observers say powerful political families control many areas.",
+    "vote": "The president wins with the most votes, with no runoff, and the vice president is elected separately, so they can be from rival camps. Most House members win local areas, and others come from party lists.",
+    "history": "Spain ruled for over 300 years, followed by the US until independence in 1946. Ferdinand Marcos ruled as a dictator from 1965 until the peaceful People Power uprising of 1986. His son won the presidency in 2022.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "hog",
+          "v": "elect"
+        },
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "voters",
+          "b": "upper",
+          "v": "elect"
+        }
+      ],
+      "labels": {
+        "lower": "House of Reps.",
+        "upper": "Senate",
+        "hog": "President"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "parallel",
+        "threshold": null,
+        "age": 18,
+        "compulsory": false,
+        "term": 3
+      },
+      "timeline": [
+        {
+          "y": 1946,
+          "t": "Independence from the United States",
+          "k": "independence"
+        },
+        {
+          "y": 1972,
+          "t": "Marcos declares martial law",
+          "k": "coup"
+        },
+        {
+          "y": 1986,
+          "t": "People Power uprising ousts Marcos",
+          "k": "revolution"
+        },
+        {
+          "y": 1987,
+          "t": "New democratic constitution",
+          "k": "constitution"
+        }
+      ]
+    }
+  },
+  "TLS": {
+    "gov": "Voters elect a parliament, and the prime minister runs the government. A president, also elected by voters, helps keep the balance.",
+    "vote": "Seats are shared by party vote share across the whole country, and the president is elected in two rounds, if needed.",
+    "history": "Timor-Leste was a Portuguese colony. Indonesia invaded in 1975 and held it for 24 years. In a vote run by the UN in 1999, people chose independence, which began in 2002.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "voters",
+          "b": "hos",
+          "v": "elect"
+        },
+        {
+          "a": "hos",
+          "b": "hog",
+          "v": "appoint"
+        }
+      ],
+      "labels": {
+        "lower": "National Parliament",
+        "hos": "President",
+        "hog": "Prime Minister"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "list-pr",
+        "threshold": null,
+        "age": 17,
+        "compulsory": false,
+        "term": 5
+      },
+      "timeline": [
+        {
+          "y": 1975,
+          "t": "Indonesia invades as Portugal leaves",
+          "k": "split"
+        },
+        {
+          "y": 1999,
+          "t": "UN-run vote chooses independence",
+          "k": "democracy"
+        },
+        {
+          "y": 2002,
+          "t": "Independence takes effect",
+          "k": "independence"
+        }
+      ]
+    }
+  }
+}

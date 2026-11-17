@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#0b1119" />
+    <title>Politiview</title>
+    <meta name="description" content="Your launchpad into world politics. Every country, on one living globe: who's in charge, how people feel, and when they vote. No party. No spin." />
+    <link rel="icon" href="/politiview/brand/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/politiview/brand/apple-touch-icon.png" />
+    <link rel="manifest" href="/politiview/brand/site.webmanifest" />
+    <meta property="og:title" content="Politiview: Your Launchpad Into World Politics" />
+    <meta property="og:description" content="Every country, on one living globe. No party. No spin." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://kenlinz.github.io/politiview/brand/social.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script type="module" crossorigin src="/politiview/assets/index-prdmQfd7.js"></script>
+    <link rel="stylesheet" crossorigin href="/politiview/assets/index-BtjgH5p1.css">
+  </head>
+  <body class="booting">
+    <script>
+      // Runs before anything else, so even a page that fails to start can say how far it got. It only reports on the
+      // private server, and only sends what went wrong, the browser's name and the screen size.
+      (function () {
+        var sent = 0;
+        function report(kind, detail) {
+          if (location.port !== "8026" || sent++ > 12 || !navigator.sendBeacon) return;
+          try {
+            navigator.sendBeacon("/api/report", JSON.stringify({ kind: kind, detail: String(detail || "").slice(0, 500), ua: navigator.userAgent, w: innerWidth, h: innerHeight }));
+          } catch (e) { /* Nothing useful can be done if the report itself fails. */ }
+        }
+        window.__report = report;
+        report("start");
+        addEventListener("error", function (e) {
+          var what = e.message || "Could not load " + ((e.target && (e.target.src || e.target.href)) || "something");
+          report("error", what + " " + (e.filename || "") + ":" + (e.lineno || ""));
+          var line = document.getElementById("boot-line");
+          if (line) line.textContent = "Something Went Wrong: " + what;
+        }, true);
+        addEventListener("unhandledrejection", function (e) {
+          var why = e.reason && (e.reason.stack || e.reason.message) || e.reason;
+          report("rejection", why);
+          var line = document.getElementById("boot-line");
+          if (line) line.textContent = "Something Went Wrong: " + (e.reason && e.reason.message || e.reason);
+        });
+      })();
+    </script>
+    <a class="skip-link" href="text/index.html">Skip The Globe And Read Everything As Plain Text</a>
+    <h1 class="sr-only">Politiview: Your Launchpad Into World Politics</h1>
+    <noscript><p style="padding:16px;color:#fff">The globe needs JavaScript, but <a href="text/index.html" style="color:#8cc4ff">the plain text version</a> doesn't.</p></noscript>
+    <canvas id="globe"></canvas>
+    <div id="labels" aria-hidden="true"></div>
+    <div id="app" role="main"></div>
+    <div id="boot">
+      <div class="boot-mark"><svg class="brand-draw" viewBox="0 0 64 64" width="46" height="46" aria-hidden="true"><g fill="none" stroke="#fff" stroke-linecap="round"><path pathLength="1" d="M19 27V56" stroke-width="6"/><circle pathLength="1" cx="36.500" cy="27" r="17.500" stroke-width="6"/><ellipse pathLength="1" cx="36.500" cy="27" rx="7.500" ry="17.500" stroke-width="2" opacity="0.6"/><path pathLength="1" d="M19 27h35" stroke-width="2" opacity="0.6"/></g><circle class="brand-dot" cx="36.500" cy="27" r="5.500" fill="#ffd166"/></svg>Politiview</div>
+      <div class="boot-line" id="boot-line">Loading the map</div>
+      <div class="boot-bar"><i id="boot-bar"></i></div>
+      <p class="boot-fact" id="boot-fact"></p>
+      <script>
+        // Something worth reading while the map loads. Each of these is from the datasets the site is built on.
+        (function () {
+          var facts = [
+            "New Zealand was the first country where all women could vote, in 1893.",
+            "Swiss women could not vote in national elections until 1971.",
+            "In 1900, only a handful of countries let their people choose their leaders.",
+            "Rwanda's parliament has more women than men.",
+            "Saudi Arabia, Oman and Qatar are among the countries still run by royal families.",
+            "Some countries report near 100% turnout. Turnout is not the same as choice."
+          ];
+          document.getElementById("boot-fact").textContent = facts[Math.floor(Math.random() * facts.length)];
+        })();
+      </script>
+    </div>
+  </body>
+</html>

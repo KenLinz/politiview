@@ -1,0 +1,891 @@
+{
+  "AUS": {
+    "gov": "Voters elect a parliament. The leader of the party or group with majority support in the House of Representatives becomes prime minister. King Charles is officially head of state, with a governor general standing in for him. The six states have strong powers of their own.",
+    "vote": "Voting is compulsory, so turnout is around 90 percent. For the House you rank every candidate, and your vote transfers if your first choice is knocked out. The Senate gives each state an equal number of seats, using a form of proportional voting.",
+    "history": "Aboriginal peoples have lived here for at least 50,000 years. Britain began setting up colonies in 1788, and six of them joined together in 1901. Indigenous Australians won the right to vote in all federal elections in 1962.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "voters",
+          "b": "upper",
+          "v": "elect"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "choose"
+        },
+        {
+          "a": "crown",
+          "b": "hos",
+          "v": "appoint"
+        }
+      ],
+      "labels": {
+        "lower": "House of Representatives",
+        "upper": "Senate",
+        "hog": "Prime Minister",
+        "hos": "Governor-General",
+        "crown": "The King"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "ranked",
+        "threshold": null,
+        "age": 18,
+        "compulsory": true,
+        "term": 3
+      },
+      "timeline": [
+        {
+          "y": 1788,
+          "t": "British colony founded at Sydney",
+          "k": "monarchy"
+        },
+        {
+          "y": 1901,
+          "t": "Six colonies join as one federation",
+          "k": "union"
+        },
+        {
+          "y": 1902,
+          "t": "Most women gain the federal vote",
+          "k": "suffrage"
+        },
+        {
+          "y": 1962,
+          "t": "Indigenous Australians gain federal voting right",
+          "k": "suffrage"
+        },
+        {
+          "y": 1986,
+          "t": "Last legal ties to Britain cut",
+          "k": "independence"
+        }
+      ]
+    }
+  },
+  "NZL": {
+    "gov": "Voters elect a parliament with one chamber, and the prime minister runs the government. King Charles is officially head of state, with a governor general standing in for him. There's no upper house and no single written constitution.",
+    "vote": "Each voter gets two votes: one for a local representative and one for a party, a system called mixed-member proportional. The party vote decides each party's share of seats. Seven seats are reserved for Māori, and governments often depend on deals with smaller parties.",
+    "history": "Māori chiefs and representatives of the British Crown signed the Treaty of Waitangi in 1840, and the two sides have disagreed about what it means ever since. In 1893, New Zealand became the first self-governing country to give women the vote. It chose today's voting system in a 1993 vote.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "choose"
+        },
+        {
+          "a": "crown",
+          "b": "hos",
+          "v": "appoint"
+        }
+      ],
+      "labels": {
+        "lower": "House of Representatives",
+        "hog": "Prime Minister",
+        "hos": "Governor-General",
+        "crown": "The King"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "mmp",
+        "threshold": 5,
+        "age": 18,
+        "compulsory": false,
+        "term": 3
+      },
+      "timeline": [
+        {
+          "y": 1840,
+          "t": "Treaty of Waitangi signed",
+          "k": "monarchy"
+        },
+        {
+          "y": 1893,
+          "t": "Women win the vote",
+          "k": "suffrage"
+        },
+        {
+          "y": 1986,
+          "t": "Constitution Act sets out the system",
+          "k": "constitution"
+        },
+        {
+          "y": 1993,
+          "t": "Referendum chooses proportional voting",
+          "k": "reform"
+        }
+      ]
+    }
+  },
+  "FJI": {
+    "gov": "Voters elect a parliament, and the prime minister runs the government. A president, picked by parliament, has a job that's mostly for show.",
+    "vote": "All voters choose from one nationwide list and seats are shared by party vote share. Supporters say this reduces voting along ethnic lines.",
+    "history": "Britain brought workers from India to farm sugar. Tension between Indigenous Fijians and Indo-Fijians was a big part of the story behind coups in 1987 (two), 2000 and 2006. A new constitution came in 2013, and elections were held in 2014.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "choose"
+        },
+        {
+          "a": "lower",
+          "b": "hos",
+          "v": "elect"
+        }
+      ],
+      "labels": {
+        "lower": "Parliament",
+        "hog": "Prime Minister",
+        "hos": "President"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "list-pr",
+        "threshold": 5,
+        "age": 18,
+        "compulsory": false,
+        "term": 4
+      },
+      "timeline": [
+        {
+          "y": 1970,
+          "t": "Independence from Britain",
+          "k": "independence"
+        },
+        {
+          "y": 1987,
+          "t": "Military coups; Fiji becomes a republic",
+          "k": "coup"
+        },
+        {
+          "y": 2006,
+          "t": "Military takes power in another coup",
+          "k": "coup"
+        },
+        {
+          "y": 2013,
+          "t": "New constitution adopted",
+          "k": "constitution"
+        },
+        {
+          "y": 2014,
+          "t": "First election under the new constitution",
+          "k": "democracy"
+        }
+      ]
+    }
+  },
+  "PNG": {
+    "gov": "Voters elect a parliament, and the prime minister runs the government. King Charles is formally head of state, with a governor-general acting for him. Its people speak over 800 languages, more than any other country.",
+    "vote": "Voters rank up to three candidates, a method called limited preferential voting. Most candidates are independents or belong to small parties. So coalitions keep changing, and votes to remove governments are common.",
+    "history": "Germany and Britain split up this land, and Australia later ran it until independence in 1975. Bougainville fought a long war to break away. In a 2019 vote nearly all its voters chose independence. The result isn't binding, and the national parliament has the final say.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "choose"
+        },
+        {
+          "a": "lower",
+          "b": "hos",
+          "v": "choose"
+        },
+        {
+          "a": "crown",
+          "b": "hos",
+          "v": "appoint"
+        }
+      ],
+      "labels": {
+        "lower": "National Parliament",
+        "hog": "Prime Minister",
+        "hos": "Governor-General",
+        "crown": "The King"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "ranked",
+        "threshold": null,
+        "age": 18,
+        "compulsory": false,
+        "term": 5
+      },
+      "timeline": [
+        {
+          "y": 1975,
+          "t": "Independence from Australia",
+          "k": "independence"
+        },
+        {
+          "y": 2001,
+          "t": "Peace deal gives Bougainville autonomy",
+          "k": "reform"
+        },
+        {
+          "y": 2007,
+          "t": "Ranked voting used in national election",
+          "k": "reform"
+        },
+        {
+          "y": 2019,
+          "t": "Bougainville votes on independence",
+          "k": "reform"
+        }
+      ]
+    }
+  },
+  "SLB": {
+    "gov": "Voters elect a parliament, and the prime minister runs the government. King Charles is formally head of state, with a governor general acting for him.",
+    "vote": "Whoever gets the most votes in each area wins. Most members aren't tied closely to parties, so governments shift often.",
+    "history": "The islands won independence from Britain in 1978. Violence between ethnic groups from 1998 to 2003 brought in a peacekeeping mission led by Australia. In 2019 the government switched its recognition from Taiwan to China, which divided opinion.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "choose"
+        },
+        {
+          "a": "crown",
+          "b": "hos",
+          "v": "appoint"
+        }
+      ],
+      "labels": {
+        "lower": "National Parliament",
+        "hog": "Prime Minister",
+        "hos": "Governor-General",
+        "crown": "The King"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "fptp",
+        "threshold": null,
+        "age": 18,
+        "compulsory": false,
+        "term": 4
+      },
+      "timeline": [
+        {
+          "y": 1976,
+          "t": "Self-government from Britain",
+          "k": "reform"
+        },
+        {
+          "y": 1978,
+          "t": "Independence from Britain",
+          "k": "independence"
+        },
+        {
+          "y": 2003,
+          "t": "Australian-led mission arrives after unrest",
+          "k": "reform"
+        }
+      ]
+    }
+  },
+  "VUT": {
+    "gov": "Voters elect a parliament, and the prime minister runs the government. A president, picked by a special group, is mostly for show. Votes to remove governments have often brought them down.",
+    "vote": "Most seats are filled by voters in multi-member areas, where each voter gets one vote, and the rest in single-seat areas. Many small parties compete.",
+    "history": "Britain and France ran these islands jointly from 1906, with two sets of laws and police. Vanuatu became independent in 1980.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "choose"
+        },
+        {
+          "a": "electors",
+          "b": "hos",
+          "v": "elect"
+        }
+      ],
+      "labels": {
+        "lower": "Parliament",
+        "hog": "Prime Minister",
+        "hos": "President",
+        "electors": "Parliament + regional head"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "other",
+        "threshold": null,
+        "age": 18,
+        "compulsory": false,
+        "term": 4
+      },
+      "timeline": [
+        {
+          "y": 1906,
+          "t": "Britain and France share rule",
+          "k": "union"
+        },
+        {
+          "y": 1980,
+          "t": "Independence",
+          "k": "independence"
+        }
+      ]
+    }
+  },
+  "WSM": {
+    "gov": "Voters elect a parliament, and the prime minister runs the government. A head of state, picked by parliament, has a job that's mostly for show. Traditional chiefs, called matai, have a special place: only they can run for parliament.",
+    "vote": "Whoever gets the most votes in each area wins, and a share of seats must go to women. After a disputed 2021 election and court rulings, a new party took power after about 40 years of one party's rule.",
+    "history": "It won independence from New Zealand in 1962, the first Pacific island nation to do so in the 1900s.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "choose"
+        },
+        {
+          "a": "lower",
+          "b": "hos",
+          "v": "elect"
+        }
+      ],
+      "labels": {
+        "lower": "Legislative Assembly",
+        "hog": "Prime Minister",
+        "hos": "Head of State"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "fptp",
+        "threshold": null,
+        "age": 21,
+        "compulsory": false,
+        "term": 5
+      },
+      "timeline": [
+        {
+          "y": 1962,
+          "t": "Independence from New Zealand",
+          "k": "independence"
+        },
+        {
+          "y": 1990,
+          "t": "Universal adult vote introduced",
+          "k": "suffrage"
+        },
+        {
+          "y": 2021,
+          "t": "Disputed election ends long single-party rule",
+          "k": "democracy"
+        }
+      ]
+    }
+  },
+  "TON": {
+    "gov": "A king holds a lot of power, along with a parliament and prime minister. Reforms in 2010 made most of parliament elected, and nobles choose the rest.",
+    "vote": "People vote for 17 of the seats, and the country's nobles choose nine more among themselves.",
+    "history": "Tonga was under British protection from 1900 to 1970 but was never formally a colony. It's the Pacific's only remaining kingdom run by its own royal family. Riots in 2006 were followed by democratic reforms in 2010.",
+    "facts": {
+      "power": [
+        {
+          "a": "family",
+          "b": "hos",
+          "v": "inherit"
+        },
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "choose"
+        },
+        {
+          "a": "hos",
+          "b": "hog",
+          "v": "appoint"
+        }
+      ],
+      "labels": {
+        "family": "Royal family",
+        "hos": "King",
+        "lower": "Legislative Assembly",
+        "hog": "Prime Minister"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "fptp",
+        "threshold": null,
+        "age": 21,
+        "compulsory": false,
+        "term": 4
+      },
+      "timeline": [
+        {
+          "y": 1875,
+          "t": "First constitution under the monarchy",
+          "k": "constitution"
+        },
+        {
+          "y": 1900,
+          "t": "British protection begins",
+          "k": "monarchy"
+        },
+        {
+          "y": 1970,
+          "t": "Protection ends; fully independent",
+          "k": "independence"
+        },
+        {
+          "y": 2010,
+          "t": "Reform: most of parliament elected",
+          "k": "reform"
+        }
+      ]
+    }
+  },
+  "KIR": {
+    "gov": "Voters elect a president, who runs the government, from candidates put forward by parliament.",
+    "vote": "Most lawmakers win local races in two rounds, if needed. Rising seas are a major worry for these low-lying islands.",
+    "history": "It was once called the Gilbert Islands, and became independent from Britain in 1979.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "voters",
+          "b": "hog",
+          "v": "elect"
+        }
+      ],
+      "labels": {
+        "lower": "Parliament (Maneaba)",
+        "hog": "President"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "two-round",
+        "threshold": null,
+        "age": 18,
+        "compulsory": false,
+        "term": 4
+      },
+      "timeline": [
+        {
+          "y": 1979,
+          "t": "Independence from Britain",
+          "k": "independence"
+        }
+      ]
+    }
+  },
+  "TUV": {
+    "gov": "Voters elect a small parliament, and it chooses a prime minister. King Charles is formally head of state, with a governor general acting for him. There are no political parties.",
+    "vote": "Voters choose people, not parties, and each island elects two members. With only about 11,000 people, politics is very personal.",
+    "history": "It was once called the Ellice Islands, and became independent from Britain in 1978. Rising seas are a big worry. A treaty with Australia signed in 2023 gives Tuvaluans a way to live there.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "choose"
+        },
+        {
+          "a": "crown",
+          "b": "hos",
+          "v": "appoint"
+        }
+      ],
+      "labels": {
+        "lower": "Parliament",
+        "hog": "Prime Minister",
+        "hos": "Governor-General",
+        "crown": "The King"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "block",
+        "threshold": null,
+        "age": 18,
+        "compulsory": false,
+        "term": 4
+      },
+      "timeline": [
+        {
+          "y": 1974,
+          "t": "Ellice Islands vote to separate from Gilberts",
+          "k": "split"
+        },
+        {
+          "y": 1978,
+          "t": "Independence from Britain",
+          "k": "independence"
+        }
+      ]
+    }
+  },
+  "NRU": {
+    "gov": "Voters elect a parliament, which picks a president who runs the government. It's the world's smallest republic.",
+    "vote": "Voters rank candidates, using a method called the Dowdall system, where lower choices count for part of a vote.",
+    "history": "Phosphate mining made Nauru one of the richest countries per person for a time, then left much of the island unusable. It became independent in 1968, and later hosted Australia's offshore detention centres.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "elect"
+        }
+      ],
+      "labels": {
+        "lower": "Parliament",
+        "hog": "President"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "other",
+        "threshold": null,
+        "age": null,
+        "compulsory": null,
+        "term": 3
+      },
+      "timeline": [
+        {
+          "y": 1968,
+          "t": "Independence",
+          "k": "independence"
+        }
+      ]
+    }
+  },
+  "FSM": {
+    "gov": "Congress chooses a president from among its four state-wide members, and four states hold much of the power. There are no political parties.",
+    "vote": "Voters elect ten members of Congress from one-seat districts by first-past-the-post. Each of the four states also elects one member for the whole state.",
+    "history": "Spain, Germany, Japan and then the US ran these islands. They became self-governing in 1986, under a compact with the US, which provides funding and handles defense.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "choose"
+        }
+      ],
+      "labels": {
+        "lower": "Congress",
+        "hog": "President"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "fptp",
+        "threshold": null,
+        "age": 18,
+        "compulsory": false,
+        "term": 2
+      },
+      "timeline": [
+        {
+          "y": 1986,
+          "t": "Self-governing under US compact",
+          "k": "independence"
+        }
+      ]
+    }
+  },
+  "MHL": {
+    "gov": "Voters elect a parliament, which picks a president. A council of traditional chiefs also advises.",
+    "vote": "Voters elect members from local districts, some with one seat and some with several. Citizens living in the US can vote by mail.",
+    "history": "The US tested 67 nuclear weapons here from 1946 to 1958, including at Bikini Atoll, and the effects on people and land continue. It became self-governing in 1986 under a compact with the US.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "elect"
+        }
+      ],
+      "labels": {
+        "lower": "Nitijela",
+        "hog": "President"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "block",
+        "threshold": null,
+        "age": 18,
+        "compulsory": false,
+        "term": 4
+      },
+      "timeline": [
+        {
+          "y": 1946,
+          "t": "US begins nuclear tests",
+          "k": "reform"
+        },
+        {
+          "y": 1979,
+          "t": "Marshall Islands constitution adopted",
+          "k": "constitution"
+        },
+        {
+          "y": 1986,
+          "t": "Self-governing under US compact",
+          "k": "independence"
+        }
+      ]
+    }
+  },
+  "PLW": {
+    "gov": "Voters elect a president, who runs the government, along with a Congress with two chambers. Traditional chiefs also give respected advice. There are no political parties.",
+    "vote": "A primary narrows the field for president, and everyone votes for people rather than parties.",
+    "history": "Japan and then the US once ran Palau. It became independent in 1994 under a deal with the US.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "voters",
+          "b": "upper",
+          "v": "elect"
+        },
+        {
+          "a": "voters",
+          "b": "hog",
+          "v": "elect"
+        }
+      ],
+      "labels": {
+        "lower": "House of Delegates",
+        "upper": "Senate",
+        "hog": "President"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "fptp",
+        "threshold": null,
+        "age": 18,
+        "compulsory": false,
+        "term": 4
+      },
+      "timeline": [
+        {
+          "y": 1981,
+          "t": "Palau adopts its own constitution",
+          "k": "constitution"
+        },
+        {
+          "y": 1994,
+          "t": "Independence under US compact",
+          "k": "independence"
+        }
+      ]
+    }
+  },
+  "NCL": {
+    "gov": "New Caledonia is a French territory with its own elected Congress and government. France keeps control of defense, foreign affairs and some other areas, and a High Commissioner speaks for the French state. The islands also send members to the French parliament.",
+    "vote": "Voters elect assemblies in three provinces, and members of those assemblies form the Congress. Only people who met the rules on how long they've lived here, set in the 1998 Nouméa Accord, can vote in these elections. Changing that rule has been disputed.",
+    "history": "France took the islands in 1853, and the Indigenous Kanak people say they were dispossessed of land. Votes on independence in 2018, 2020 and 2021 each chose to stay with France, though pro-independence groups boycotted the last. Unrest in 2024 over voting rules left the islands' future status still under negotiation.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "regions",
+          "v": "elect"
+        },
+        {
+          "a": "regions",
+          "b": "lower",
+          "v": "choose"
+        }
+      ],
+      "labels": {
+        "regions": "Three provincial assemblie",
+        "lower": "Congress"
+      },
+      "runs": null,
+      "electoral": {
+        "kind": "list-pr",
+        "threshold": null,
+        "age": 18,
+        "compulsory": false,
+        "term": 5
+      },
+      "timeline": [
+        {
+          "y": 1853,
+          "t": "France takes the islands",
+          "k": "monarchy"
+        },
+        {
+          "y": 1998,
+          "t": "Nouméa Accord sets path to self-rule",
+          "k": "reform"
+        },
+        {
+          "y": 2018,
+          "t": "First independence vote; stays with France",
+          "k": "reform"
+        },
+        {
+          "y": 2021,
+          "t": "Third vote; stays with France",
+          "k": "reform"
+        }
+      ]
+    }
+  },
+  "PYF": {
+    "gov": "French Polynesia is a French territory with its own elected assembly and president. France keeps control of defense, foreign affairs and some other areas, and a High Commissioner speaks for the French state.",
+    "vote": "Voters elect the territorial assembly, which then chooses the president. The party with the most votes gets bonus seats to help it form a government.",
+    "history": "France made the islands a protectorate in 1842 and later a colony. France tested nuclear weapons there from 1966 to 1996, which remains a sensitive issue. Today it has wide self-rule, and some parties want independence while others want to stay with France.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "lower",
+          "b": "hog",
+          "v": "choose"
+        }
+      ],
+      "labels": {
+        "lower": "Assembly",
+        "hog": "President"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "list-pr",
+        "threshold": 5,
+        "age": 18,
+        "compulsory": false,
+        "term": 5
+      },
+      "timeline": [
+        {
+          "y": 1842,
+          "t": "France makes it a protectorate",
+          "k": "monarchy"
+        },
+        {
+          "y": 1966,
+          "t": "French nuclear tests begin",
+          "k": "reform"
+        },
+        {
+          "y": 2004,
+          "t": "Statute gives wide self-rule",
+          "k": "reform"
+        }
+      ]
+    }
+  },
+  "GUM": {
+    "gov": "Guam is a US territory with its own elected governor and a lawmaking body with one chamber. Its people are US citizens but can't vote for US president in the general election. Its delegate in Congress can't vote on final laws.",
+    "vote": "Voters choose a governor and 15 lawmakers, who are elected by the whole island, not by districts. Guam also holds a practice vote for president, which has no effect on the result.",
+    "history": "Spain ruled Guam until 1898, when it passed to the US after a war. Japan occupied it from 1941 to 1944. A 1950 law made Guam an organized territory with US citizenship, and the UN lists it as a territory still without full self-government.",
+    "facts": {
+      "power": [
+        {
+          "a": "voters",
+          "b": "lower",
+          "v": "elect"
+        },
+        {
+          "a": "voters",
+          "b": "hog",
+          "v": "elect"
+        }
+      ],
+      "labels": {
+        "lower": "Legislature",
+        "hog": "Governor"
+      },
+      "runs": "hog",
+      "electoral": {
+        "kind": "block",
+        "threshold": null,
+        "age": 18,
+        "compulsory": false,
+        "term": 2
+      },
+      "timeline": [
+        {
+          "y": 1898,
+          "t": "Spain hands Guam to the US",
+          "k": "union"
+        },
+        {
+          "y": 1950,
+          "t": "Organic Act gives US citizenship",
+          "k": "reform"
+        }
+      ]
+    }
+  }
+}

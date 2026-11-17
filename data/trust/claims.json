@@ -1,0 +1,13 @@
+{
+  "at": "2026-11-05T03:57:24.043Z",
+  "model": "gemma3-4b",
+  "examples": 50,
+  "runs": 3,
+  "checked": 150,
+  "badCaught": 75,
+  "badLetThrough": 0,
+  "goodPassed": 63,
+  "goodStopped": 12,
+  "unreadable": 0,
+  "seconds": 553
+}
